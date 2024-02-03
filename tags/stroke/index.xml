@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>stroke on Ray Pereda</title>
+    <link>https://RayPereda.com/tags/stroke/</link>
+    <description>Recent content in stroke on Ray Pereda</description>
+    <image>
+      <title>Ray Pereda</title>
+      <url>https://RayPereda.com/img/ray2018.jpg</url>
+      <link>https://RayPereda.com/img/ray2018.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 29 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://RayPereda.com/tags/stroke/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2018 Brain Stroke Day</title>
+      <link>https://RayPereda.com/blog/brain-stroke-day-2018/</link>
+      <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://RayPereda.com/blog/brain-stroke-day-2018/</guid>
+      <description>Today is International Brain Stroke Day.
+If you are reading this, you are alive. Perhaps you survived a stroke and can still read. Yeah buddy!!
+Book Recommendation: The Left Brain Speaks, the Right Brain Laughs: A Look at the Neuroscience of Innovation &amp;amp; Creativity in Art, Science &amp;amp; Life When one side of brain is injured, you become more aware of the amazing differences between to the sides. You may love this book!</description>
+    </item>
+  </channel>
+</rss>

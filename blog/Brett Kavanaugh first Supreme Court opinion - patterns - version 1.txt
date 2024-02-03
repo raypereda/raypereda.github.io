@@ -1,0 +1,281 @@
+MegaPatterns logo
+Count	Phrase
+265	.
+224	the
+213	,
+98	to
+78	and
+78	of
+72	that
+62	a
+55	is
+45	arbitration
+37	arbitrability
+36	an
+35	in
+35	not
+31	Archer
+31	contract
+31	court
+30	(
+30	)
+28	arbitrator
+27	Court
+26	Act
+26	groundless
+26	wholly
+25	White
+25	parties
+23	The
+23	as
+23	question
+22	for
+21	at
+21	may
+20	with
+19	argument
+18	agreement
+18	dispute
+18	have
+17	exception
+16	&
+16	if
+15	issue
+36	of the
+27	that the
+26	Archer and
+26	an arbitrator
+25	.,
+24	wholly groundless
+22	v.
+19	. The
+19	the parties
+16	a court
+16	the Act
+14	, and
+14	, at
+14	arbitrability question
+14	the arbitrability
+13	, the
+13	arbitrator,
+13	the Court
+12	the court
+11	for arbitration
+10	. 3
+10	may not
+10	the contract
+9	. Archer
+9	. We
+9	groundless.
+9	is not
+9	is wholly
+9	to arbitration
+9	with the
+8	).
+8	) ;
+8	, a
+8	District Court
+8	even if
+8	whether the
+7	. In
+7	Act,
+7	arbitration agreement
+7	arbitration is
+7	compel arbitration
+21	Archer and White
+16	to an arbitrator
+15	. v.
+14	, INC.
+14	, Inc.
+13	wholly groundless exception
+12	an arbitrator,
+12	of the Court
+10	., at
+9	the arbitrability question
+8	. Archer and
+8	argument for arbitration
+7	is wholly groundless
+7	the parties contract
+7	the wholly groundless
+7	v. ARCHER
+7	wholly groundless.
+6	, a court
+6	contract delegates the
+6	delegates the arbitrability
+6	to compel arbitration
+5	Archer and Whites
+5	that a court
+5	the merits of
+5	time and money
+4	, even if
+4	. Rent-A-Center,
+4	Archer & White
+4	Court of Appeals
+4	THE UNITED STATES
+4	a particular dispute
+4	merits of the
+4	of the Act
+4	questions of arbitrability
+4	that an arbitrator
+4	the Act,
+4	the District Court
+4	the arbitrability issue
+4	the arbitration agreement
+4	the contract.
+4	the statutory text
+23	U. S.
+11	to an arbitrator,
+9	F. 3 d
+8	Opinion of the Court
+8	the Federal Arbitration Act
+7	, Archer and White
+7	a court may not
+6	. Archer and White
+6	is wholly groundless.
+6	the wholly groundless exception
+5	, Inc.,
+4	, its argument that
+4	AT & T Technologies
+4	When the parties contract
+4	a wholly groundless exception
+4	even if the court
+4	is inconsistent with the
+4	that the wholly groundless
+4	to compel arbitration.
+4	wholly groundless exception.
+3	. The Fifth Circuit
+3	arbitration agreement applies to
+3	delegated to an arbitrator
+3	of a particular dispute
+3	of the American Arbitration
+3	particular dispute is wholly
+3	sought injunctive relief,
+3	that a court must
+3	the Court of Appeals
+3	the merits of the
+3	the threshold arbitrability question
+3	to an arbitrator.
+2	, J.,
+2	. Archer and Whites
+2	. Schein contended that
+2	. The District Court
+2	. We conclude that
+2	2017 ) ; Douglas
+2	Act and this Courts
+2	Archer and White sued
+2	Archer and Whites complaint
+9	arbitrability question to an arbitrator
+8	, Inc. v.
+7	HENRY SCHEIN, INC.
+7	WHITE SALES, INC.
+5	, a court may not
+5	argument for arbitration is wholly
+5	the parties contract delegates the
+4	frivolous motions to compel arbitration
+4	the wholly groundless exception is
+4	to an arbitrator, the
+3	. Id., at
+3	AT & T Technologies,
+3	a court may not decide
+3	say that the underlying issue
+3	that the wholly groundless exception
+3	the Federal Arbitration Act,
+3	the Federal Arbitration Act.
+3	wholly groundless exception, and
+3	with the Federal Arbitration Act
+2	, as well as other
+2	, even if the court
+2	. As relevant here,
+2	3 and 4 of the
+2	Archer and Whites 10 argument
+2	District Court agreed with Archer
+2	Henry Schein, Inc.
+2	and this Courts cases,
+2	and with our precedent.
+2	arbitration in accordance with the
+2	decide the arbitrability issue.
+2	delegated to an arbitrator.
+2	exception is inconsistent with the
+2	proper role to redesign the
+2	the Federal Arbitration Act and
+2	the merits of the dispute
+2	the opinion of the Court
+2	the text of the Act
+2	wholly groundless exception. The
+8	the arbitrability question to an arbitrator
+7	U. S., at
+7	arbitrability question to an arbitrator,
+5	, 514 U. S.
+5	, 561 U. S.
+4	argument for arbitration is wholly groundless
+3	, 475 U. S.
+3	even if the court thinks that
+2	, 757 F. 3 d
+2	878 F. 3 d 488
+2	SUPREME COURT OF THE UNITED STATES
+2	a wholly groundless exception, and
+2	but also gateway questions of arbitrability
+2	decide whether the arbitration agreement applied
+2	dispute arising under or related to
+2	frivolous motions to compel arbitration.
+2	judgment of the Court of Appeals
+2	overstates the potential problem. Arbitrators
+2	rules of the American Arbitration Association
+2	that the wholly groundless exception is
+2	the question of who decides arbitrability
+2	when the parties contract delegates the
+2	whether the contract at issue in
+2	wholly groundless exception, and we
+6	the arbitrability question to an arbitrator,
+3	arbitrability question to an arbitrator, the
+2	. According to Archer and White,
+2	a particular dispute is wholly groundless.
+2	arbitration agreement applies to the particular dispute
+2	asked the District Court to refer the
+2	even if the court thinks that the
+2	frivolous. AT & T Technologies,
+2	own exceptions onto the statutory text.
+2	violations of federal and state antitrust law
+4	to an arbitrator, a court may not
+3	the argument for arbitration is wholly groundless.
+2	9 U. S. C. 2.
+2	that Scheins argument for arbitration was wholly groundless
+2	that the Act contains no wholly groundless exception
+2	the argument that the arbitration agreement applies to
+5	contract delegates the arbitrability question to an arbitrator,
+3	Rent-A-Center, 561 U. S., at
+2	HENRY SCHEIN, INC., ET AL.
+2	in fact delegated the arbitrability question to an arbitrator
+2	question that the parties have delegated to an arbitrator
+2	that a court must always resolve questions of arbitrability
+2	that the dispute was not subject to arbitration because
+2	to an arbitrator, a court may not decide
+6	. v. ARCHER & WHITE SALES, INC.
+3	First Options, 514 U. S., at
+2	. Rent-A-Center, 561 U. S., at
+2	complaint sought injunctive relief, at least in part.
+2	exception is necessary to deter frivolous motions to compel arbitration
+2	provide that arbitrators have the power to resolve arbitrability questions
+4	the parties contract delegates the arbitrability question to an arbitrator,
+4	Cite as : 586 U. S. ____ ( 2019 )
+2	CERTIORARI TO THE UNITED STATES COURT OF APPEALS FOR THE FIFTH CIRCUIT
+2	denied Scheins motion to compel arbitration. The Fifth Circuit affirmed.
+2	whether the wholly groundless exception is consistent with the Federal Arbitration Act
+3	. When the parties contract delegates the arbitrability question to an arbitrator,
+2	it would be a waste of the parties time and money to send
+5	HENRY SCHEIN, INC. v. ARCHER & WHITE SALES, INC.
+2	both money damages and injunctive relief. The relevant contract between the parties provided
+2	2 HENRY SCHEIN, INC. v. ARCHER & WHITE SALES, INC.
+2	may agree to have an arbitrator decide not only the merits of a particular dispute
+2	. First Options, 514 U. S., at 944 ( alterations omitted )
+2	have caused a substantial problem in those Circuits that have not recognized a wholly groundless exception.
+2	provides for back-end judicial review of an arbitrators decision if an arbitrator has exceeded his or her
+4	HENRY SCHEIN, INC. v. ARCHER & WHITE SALES, INC. Opinion of the Court
+2	. Rent-A-Center, West, Inc. v. Jackson, 561 U. S. 63,
+2	First Options of Chicago, Inc. v. Kaplan, 514 U. S. 938,
+2	exception would save time and money systemically even if it might do so in some individual cases.
+2	the parties contract delegates the arbitrability question to an arbitrator, a court may not override the contract
+2	AT & T Technologies, Inc. v. Communications Workers, 475 U. S. 643,
+2	the court at the front end should also be able to say that the underlying issue is not arbitrable
+2	Under the Act, arbitration is a matter of contract, and courts must enforce arbitration contracts according to their terms. Rent-A-Center,
+2	. When the parties contract delegates the arbitrability question to an arbitrator, the courts must respect the parties decision as embodied in the contract. We

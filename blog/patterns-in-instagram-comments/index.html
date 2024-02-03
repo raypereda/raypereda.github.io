@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Patterns in Instagram Comments | Ray Pereda</title>
+<meta name="keywords" content="patterns">
+<meta name="description" content="Have you ever seen a huge list of comments on a social media post and thought &ldquo;A summary would be nice&rdquo;? For example, consider this post on Instagram by The Rock https://www.instagram.com/p/BmHGYvvl0wD/ He is taking a picture with a Beluga Whale. It used have 31K comments, but now there are none.
+I tried to download the comments text and see if I can summarize with tools. In 2019, I tried downloading the comments.">
+<meta name="author" content="Ray Pereda">
+<link rel="canonical" href="https://RayPereda.com/blog/patterns-in-instagram-comments/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://RayPereda.com/red-R-favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://RayPereda.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://RayPereda.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://RayPereda.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://RayPereda.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Patterns in Instagram Comments" />
+<meta property="og:description" content="Have you ever seen a huge list of comments on a social media post and thought &ldquo;A summary would be nice&rdquo;? For example, consider this post on Instagram by The Rock https://www.instagram.com/p/BmHGYvvl0wD/ He is taking a picture with a Beluga Whale. It used have 31K comments, but now there are none.
+I tried to download the comments text and see if I can summarize with tools. In 2019, I tried downloading the comments." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://RayPereda.com/blog/patterns-in-instagram-comments/" /><meta property="og:image" content="https://RayPereda.com/img/ray2018.jpg"/><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2020-05-31T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-05-31T00:00:00+00:00" /><meta property="og:site_name" content="Ray Pereda" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://RayPereda.com/img/ray2018.jpg"/>
+
+<meta name="twitter:title" content="Patterns in Instagram Comments"/>
+<meta name="twitter:description" content="Have you ever seen a huge list of comments on a social media post and thought &ldquo;A summary would be nice&rdquo;? For example, consider this post on Instagram by The Rock https://www.instagram.com/p/BmHGYvvl0wD/ He is taking a picture with a Beluga Whale. It used have 31K comments, but now there are none.
+I tried to download the comments text and see if I can summarize with tools. In 2019, I tried downloading the comments."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Patterns Blog",
+      "item": "https://RayPereda.com/blog/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Patterns in Instagram Comments",
+      "item": "https://RayPereda.com/blog/patterns-in-instagram-comments/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Patterns in Instagram Comments",
+  "name": "Patterns in Instagram Comments",
+  "description": "Have you ever seen a huge list of comments on a social media post and thought \u0026ldquo;A summary would be nice\u0026rdquo;? For example, consider this post on Instagram by The Rock https://www.instagram.com/p/BmHGYvvl0wD/ He is taking a picture with a Beluga Whale. It used have 31K comments, but now there are none.\nI tried to download the comments text and see if I can summarize with tools. In 2019, I tried downloading the comments.",
+  "keywords": [
+    "patterns"
+  ],
+  "articleBody": " Have you ever seen a huge list of comments on a social media post and thought “A summary would be nice”? For example, consider this post on Instagram by The Rock https://www.instagram.com/p/BmHGYvvl0wD/ He is taking a picture with a Beluga Whale. It used have 31K comments, but now there are none.\nI tried to download the comments text and see if I can summarize with tools. In 2019, I tried downloading the comments. The official Instagram API had daily limits on the number of items downloaded. Instead, one can hire someone to scrape an Instagram URL and get the comments in bulk. Here is are the comments.\nBelow are the most repeated phrases (at least 10). I also filtered out any repeats that are purely punctuation or parts of URLs.\nCount\tPhrase 19078\t. 10999\t@ 10136\t! 6972\tthe 5521\tyou 5446\tto 5171\t, 5040\tan 4762\ta 4600\tin 3498\tI 3295\tis 3034\tof 3033\t? 2806\tthis 2669\tare 2479\tthat 2294\tfor 2179\t# 2110\tbe 2016\tanimals 1989\tnot 1969\ttherock 1774\tso 1762\tit 1596\tyour 1441\tthey 1343\twith 1296\tcaptivity 1290\tlike 1251\tanimal 1187\thave 1134\tdo 1129\tthem 1108\ton 1073\tthese 976 my 950 beautiful 950 but 885\tYou 86 love 5506\t.. 4425\t! ! 1920\t@ therock 1278\t. @ 1132\tin the 1050\t! @3900 / 7800000000 797\tin captivity 695\t. I 681\t? ? 582\tto be 574\tthe wild 564\tin a 432\tof the 409\tshould be 398\tcaptivity. 397\tto see 392\tThis is 385\t. You 382\tthey are 380\tthe rock 369\tI love 367\tthis is 351\tyou are 331\tthese animals 318\t. They 305\tbe in 291\t, and 290\tthe ocean 283\t# emptythetanks 273\tthis. 266\tto the 265\t, but 265\t. Please 264\tanimals in 262\t. This 249\tbelong in 248\t! I 244\tyou. 241\t. So 414\tin the wild 259\tin captivity. 237\t.. @ 216\tin the ocean 194\t@ therock @ 179\t. @ therock 172\t! @ therock 154\tthe wild. 149\tanimals in captivity 140\t. This is 122\tbe in the 118\tbelong in the 104\tshould be free 104\tshould not be 101\tI love you 94\t. They are 94\tShame on you 92\tshould be in 91\tin a tank 88\t@ therock. 83\t@ therock I 83\tin an aquarium 80\tto be free 78\tto see you 77\t! ! # 77\t# emptythetanks # 75\tthese animals are 75\tto be in 71\t@ therock you 70\tyou @ therock 67\t. You are 66\t? @ therock 66\ttheir natural habitat 65\t. # emptythetanks 65\t. If you 53\tbe in the wild 46\tanimals in captivity. 45\tin the wild, 43\t. Shame on you 41\tbelong in the ocean 41\tcaptivity... 41\tthem in the wild 40\tin the ocean. 39\tbe in the ocean 39\tin their natural habitat 36\t@ therock.. 35\t... and 35\tthis... 34\t... but 34\tthis ! ! ! 33\tThey belong in the 33\tfor our entertainment. 32\t... you 32\tin the ocean, 32\tin the wild and 31\tcool ! ! ! 31\tin captivity.. 30\tanimals belong in the 29\t? ? ? @ 28\t... So 28\tshould not be in 27\t! ! ! You 27\t... so 539\t! ! ! ! ! 525\t..... 89\t? ? ? ? ? 87\t! ! ! ! @ 70\t.... @ 40\t! ! ! @ therock 34\tshould be in the wild 25\tsee them in the wild 24\tshould be in the ocean 23\t. They belong in the 23\tbelong in the wild. 22\t@ therock... 22\tin captivity... 19\tshould be free in the 18\tanimals belong in the wild 17\tThey belong in the wild 17\tthe wild... 16\tin the wild.. 15\tbe in the wild. 15\tin their natural habitat. 15\tthem in the wild. 14\tShame on you @ therock 14\tin the ocean, not 14\tin the wild not in 13\t... @ therock 13\t. Shame on you. 13\t@ therock ! ! ! 13\tThey belong in the ocean 13\tbe free in the ocean 13\tbeautiful animal with staggering intelligence 13\tdo not belong in captivity 14\t@ i. am. meha 13\t! ! ! ! @ therock 13\t. They belong in the wild 13\tin the wild... 11\tshould be free in the ocean 10\tshould be in the wild. 10\tFree your pets ( slaves ), A list with 182 patterns can be condensed more. I found patterns in the patterns.\nCount\tPhrase 90\t. 54\tin 42\tthe 36\t! 25\t@ 20\tbe 17\ttherock 13\tyou 12\t? 10\tcaptivity 10\tshould 8\tanimals After studying the patterns in the comments, I would says that comments can be summarized as mostly about this question: What should we do and The Rock do about animals in captivity and in the wild?\nWhere are the animals in the wild? Many people think there is plenty of wild habitat in the world for all the wild animals. That is a common mistake. The ocean is vast and can provide habitat for the animals there, provided it is not polluted. But the land is different. The space still available for wild animals on the land is much more limited than the ocean. There are 80K Bulaga Whales in the wild. We need to preserve their natural habitats. There are only 3,900 tigers in the wild. We need to reserve more of the land for Tigers. The human population is crowding out other forms of life. There are 7.8 billion people. That’s 1 tiger for every 2 million people.\n",
+  "wordCount" : "984",
+  "inLanguage": "en",
+  "datePublished": "2020-05-31T00:00:00Z",
+  "dateModified": "2020-05-31T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Ray Pereda"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://RayPereda.com/blog/patterns-in-instagram-comments/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Ray Pereda",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://RayPereda.com/red-R-favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://RayPereda.com/" accesskey="h" title="Home (Alt + H)">
+                <img src="https://RayPereda.com/apple-touch-icon.png" alt="" aria-label="logo"
+                    height="35">Home</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://RayPereda.com/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://RayPereda.com/">Home</a>&nbsp;»&nbsp;<a href="https://RayPereda.com/blog/">Patterns Blog</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Patterns in Instagram Comments
+    </h1>
+    <div class="post-meta"><span title='2020-05-31 00:00:00 +0000 UTC'>May 31, 2020</span>&nbsp;·&nbsp;984 words&nbsp;·&nbsp;Ray Pereda
+
+</div>
+  </header> 
+
+  <div class="post-content"><figure>
+    <img loading="lazy" src="/blog/therock-and-beluga-whale.png"/> 
+</figure>
+
+<p>Have you ever seen a huge list of comments on a social media post and thought &ldquo;A summary would be nice&rdquo;?
+For example, consider this post on Instagram by The Rock <a href="https://www.instagram.com/p/BmHGYvvl0wD/">https://www.instagram.com/p/BmHGYvvl0wD/</a>
+He is taking a picture with a Beluga Whale. It used have 31K comments, but now there are none.</p>
+<p>I tried to download the comments text and see if I can summarize with tools. In 2019, I tried downloading
+the comments. The official Instagram API had daily limits on the number of items downloaded.
+Instead, one can hire someone to scrape an Instagram URL and get the comments
+in bulk. Here is are the <a href="/blog/instagram-comments.txt">comments</a>.</p>
+<p>Below are the most repeated phrases (at least 10). I also filtered out any repeats that are purely
+punctuation or parts of URLs.</p>
+<pre tabindex="0"><code>Count	Phrase
+19078	.
+10999	@
+10136	!
+6972	the
+5521	you
+5446	to
+5171	,
+5040	an
+4762	a
+4600	in
+3498	I
+3295	is
+3034	of
+3033	?
+2806	this
+2669	are
+2479	that
+2294	for
+2179	#
+2110	be
+2016	animals
+1989	not
+1969	therock
+1774	so
+1762	it
+1596	your
+1441	they
+1343	with
+1296	captivity
+1290	like
+1251	animal
+1187	have
+1134	do
+1129	them
+1108	on
+1073	these
+976     my
+950     beautiful
+950     but
+885	You
+86      love
+5506	..
+4425	! !
+1920	@ therock
+1278	. @
+1132	in the
+1050	! @3900  / 7800000000
+797	in captivity
+695	. I
+681	? ?
+582	to be
+574	the wild
+564	in a
+432	of the
+409	should be
+398	captivity.
+397	to see
+392	This is
+385	. You
+382	they are
+380	the rock
+369	I love
+367	this is
+351	you are
+331	these animals
+318	. They
+305	be in
+291	, and
+290	the ocean
+283	# emptythetanks
+273	this.
+266	to the
+265	, but
+265	. Please
+264	animals in
+262	. This
+249	belong in
+248	! I
+244	you.
+241	. So
+414	in the wild
+259	in captivity.
+237	.. @
+216	in the ocean
+194	@ therock @
+179	. @ therock
+172	! @ therock
+154	the wild.
+149	animals in captivity
+140	. This is
+122	be in the
+118	belong in the
+104	should be free
+104	should not be
+101	I love you
+94	. They are
+94	Shame on you
+92	should be in
+91	in a tank
+88	@ therock.
+83	@ therock I
+83	in an aquarium
+80	to be free
+78	to see you
+77	! ! #
+77	# emptythetanks #
+75	these animals are
+75	to be in
+71	@ therock you
+70	you @ therock
+67	. You are
+66	? @ therock
+66	their natural habitat
+65	. # emptythetanks
+65	. If you
+53	be in the wild
+46	animals in captivity.
+45	in the wild,
+43	. Shame on you
+41	belong in the ocean
+41	captivity...
+41	them in the wild
+40	in the ocean.
+39	be in the ocean
+39	in their natural habitat
+36	@ therock..
+35	... and
+35	this...
+34	... but
+34	this ! ! !
+33	They belong in the
+33	for our entertainment.
+32	... you
+32	in the ocean,
+32	in the wild and
+31	cool ! ! !
+31	in captivity..
+30	animals belong in the
+29	? ? ? @
+28	... So
+28	should not be in
+27	! ! ! You
+27	... so
+539	! ! ! ! !
+525	.....
+89	? ? ? ? ?
+87	! ! ! ! @
+70	.... @
+40	! ! ! @ therock
+34	should be in the wild
+25	see them in the wild
+24	should be in the ocean
+23	. They belong in the
+23	belong in the wild.
+22	@ therock...
+22	in captivity...
+19	should be free in the
+18	animals belong in the wild
+17	They belong in the wild
+17	the wild...
+16	in the wild..
+15	be in the wild.
+15	in their natural habitat.
+15	them in the wild.
+14	Shame on you @ therock
+14	in the ocean, not
+14	in the wild not in
+13	... @ therock
+13	. Shame on you.
+13	@ therock ! ! !
+13	They belong in the ocean
+13	be free in the ocean
+13	beautiful animal with staggering intelligence
+13	do not belong in captivity
+14	@ i. am. meha
+13	! ! ! ! @ therock
+13	. They belong in the wild
+13	in the wild...
+11	should be free in the ocean
+10	should be in the wild.
+10	Free your pets ( slaves ),
+</code></pre><p>A list with 182 patterns can be condensed more. I found patterns in the patterns.</p>
+<pre tabindex="0"><code>Count	Phrase
+90	.
+54	in
+42	the
+36	!
+25	@
+20	be
+17	therock
+13	you
+12	?
+10	captivity
+10	should
+8	animals
+</code></pre><p>After studying the patterns in the comments, I would says that comments can be summarized as mostly about
+this question: What <em>should</em> we do and <em>The Rock</em> do about <em>animals</em> in <em>captivity</em> and in <em>the wild</em>?</p>
+<p>Where are the animals in the wild?
+Many people think there is plenty of wild habitat in the world for all the wild animals.
+That is a common mistake.
+The ocean is vast and can provide habitat for the animals there, provided it is not polluted.
+But the land is different. The space still available for wild animals on the land is much
+more limited than the ocean. There are 80K Bulaga Whales in the wild. We need to preserve
+their natural habitats.
+There are only 3,900 tigers in the wild. We need to reserve
+more of the land for Tigers. The human population is crowding out other forms of life.
+There are 7.8 billion people. That&rsquo;s 1 tiger for every 2 million people.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://RayPereda.com/tags/patterns/">patterns</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://RayPereda.com/blog/patterns-in-blm-manifesto/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Patterns in Black Lives Matter Manifesto</span>
+  </a>
+  <a class="next" href="https://RayPereda.com/blog/patterns-in-the-2020-state-of-the-union-address/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Patterns in Trump&#39;s 2020 State of the Union Address</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Patterns in Instagram Comments on x"
+            href="https://x.com/intent/tweet/?text=Patterns%20in%20Instagram%20Comments&amp;url=https%3a%2f%2fRayPereda.com%2fblog%2fpatterns-in-instagram-comments%2f&amp;hashtags=patterns">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2024 <a href="https://RayPereda.com/">Ray Pereda</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

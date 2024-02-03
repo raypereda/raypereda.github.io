@@ -1,0 +1,127 @@
+
+Count	Phrase
+2	start e4 e5# Nf3 Nc6# Bb5 a6# Ba4 Nf6# O-O Be7# Re1 b5# Bb3 O-O# c3
+2	1 -0 start d4 Nf6# c4 g6# g3 c6# Bg2 d5# cxd5 cxd5# Nc3 Bg7#
+2	start e4 e5# Nf3 Nc6# Bc4 Bc5# b4 Bxb4# c3 Ba5# d4 exd4# O-O
+2	0 -1 start d4 Nf6# c4 g6# Nc3 Bg7# e4 d6# f3
+2	0 -1 start e4 e5# Nf3 Nc6# Bb5 a6# Ba4 Nf6# O-O
+2	1 -0 start e4 c5# Nf3 d6# d4 cxd4# Nxd4 Nf6# Nc3
+2	start d4 Nf6# c4 e6# Nf3 b6# g3 Bb7# Bg2 Be7#
+3	0 -1 start d4 Nf6# c4 g6# Nc3 Bg7# e4 d6#
+2	+# Kg4 Nf6 +# Kf5 Ng8 +# Kg4 Nf6 +# Kf5
+3	start e4 e5# Nf3 Nc6# Bb5 a6# Ba4 Nf6# O-O
+2	+ 1 -0 start d4 d5# c4 e6# Nc3 Nf6# Nf3
+2	+ 0 -1 start d4 Nf6# c4 e6# Nf3 b6#
+2	+ 1 -0 start e4 e5# Nf3 Nc6# Bc4 Bc5#
+2	0 -1 start d4 Nf6# c4 e6# Nc3 Bb4# e3
+3	0 -1 start d4 Nf6# c4 e6# Nc3 Bb4#
+3	0 -1 start e4 e5# Nf3 Nc6# Bb5 a6#
+2	1 -0 start e4 e5# Nf3 Nc6# Bb5 Nf6#
+3	+# Kg4 Nf6 +# Kf5 Ng8 +# Kg4
+2	start d4 Nf6# c4 g6# g3 Bg7# Bg2
+2	start e4 c5# Nf3 Nc6# d4 cxd4# Nxd4
+2	start e4 e5# Nf3 Nc6# Nc3 Nf6# Bb5
+4	+ 1 -0 start e4 e5# Nf3 Nc6#
+4	1 -0 start e4 e5# Nf3 Nc6# Bb5
+4	start e4 e5# Nf3 Nc6# Bb5 a6#
+3	+ 0 -1 start d4 Nf6# c4 e6#
+3	0 -1 start d4 Nf6# c4 e6# Nf3
+3	1 -0 start d4 Nf6# c4 g6# g3
+3	start d4 Nf6# c4 e6# Nf3 b6#
+3	start d4 d5# c4 e6# Nc3 Nf6#
+3	start e4 e5# Nf3 Nc6# Bc4 Bc5#
+2	# Bg2 Bb4 +# Bd2 Bxd2 +# Nxd2
+2	1 -0 start e4 e6# d4 d5# Nc3
+7	1 -0 start e4 e5# Nf3 Nc6#
+6	0 -1 start d4 Nf6# c4 e6#
+5	0 -1 start e4 e5# Nf3 Nc6#
+4	0 -1 start d4 Nf6# c4 g6#
+4	1 -0 start d4 Nf6# c4 g6#
+3	# Bg2 Bb4 +# Bd2 Bxd2 +#
+2	0 -1 start e4 e6# d4 d5#
+7	start e4 e5# Nf3 Nc6# Bb5
+5	+ 0 -1 start d4 Nf6# c4
+4	Nf6# c4 g6# Nc3 Bg7#
+4	start d4 Nf6# c4 e6# Nf3
+4	start d4 Nf6# c4 g6# Nc3
+4	start d4 Nf6# c4 g6# g3
+3	start e4 e6# d4 d5# Nc3
+2	# Bg2 Be7# O-O O-O# Nc3
+2	+ 1 -0 start e4 c5# Nf3
+12	start e4 e5# Nf3 Nc6#
+11	0 -1 start d4 Nf6# c4
+8	start d4 Nf6# c4 g6#
+7	start d4 Nf6# c4 e6#
+6	1 -0 start d4 Nf6# c4
+5	+# Kg4 Nf6 +# Kf5
+4	1 -0 start e4 c5# Nf3
+4	start e4 e6# d4 d5#
+3	# Nf3 Nc6# Bb5 Nf6#
+3	start e4 c5# Nf3 Nc6#
+2	# O-O Ba6# Bxa6 Nxa6#
+6	0 -1 start e4 e5#
+5	1 -0 start e4 c5#
+5	Nf6# c4 g6# Nc3
+4	1 -0 start d4 d5#
+4	Nf6# c4 e6# Nc3
+3	1 -0 start Nf3 Nf6#
+3	b6# g3 Bb7# Bg2
+2	+# Kh4 Qe4 +#
+2	0 -1 start e4 c6#
+2	1 -0 start d4 e6#
+2	Rfd8# Qg4 + Kf8#
+17	start d4 Nf6# c4
+9	Nf6# c4 g6#
+8	# Nf3 Nc6# Bb5
+8	Nf6# c4 e6#
+7	# c4 e6# Nc3
+7	# d4 cxd4# Nxd4
+7	+ 1 -0 start e4
+6	start e4 c5# Nf3
+5	+ 1 -0 start d4
+5	c5# Nf3 Nc6#
+4	# Qc4 + Kh8#
+18	# Nf3 Nc6#
+15	1 -0 start e4
+14	+ 1 -0 start
+13	0 -1 start d4
+13	1 -0 start d4
+13	start e4 e5#
+12	# c4 e6#
+11	0 -1 start e4
+10	# Nc3 Nf6#
+9	# O-O O-O#
+9	+ 0 -1 start
+34	1 -0 start
+29	0 -1 start
+20	Nf6# c4
+18	d4 Nf6#
+15	+ 1 -0
+14	c4 e6#
+14	e4 e5#
+13	+ Kh8#
+13	e5# Nf3
+11	d4 d5#
+10	+# Kf1
+139	+#
+70	Nf6#
+59	# Nf3
+55	O-O#
+52	# Nc3
+48	# O-O
+42	Nc6#
+39	# c4
+39	d5#
+35	1 -0
+35	c5#
+2212	#
+306	+
+103	O-O
+78	Nf6
+68	Nf3
+64	d4
+64	start
+59	d5
+58	e4
+56	Nc3
+52	e5

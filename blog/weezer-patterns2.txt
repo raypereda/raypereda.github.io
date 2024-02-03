@@ -1,0 +1,11 @@
+MegaPatterns logo
+Count	Phrase
+52	I
+20	I got
+9	back,
+13	time I got back
+7	I wanna go back
+8	It's time I got back
+4	I wanna go back,
+2	I want sugar in my tea
+6	back And I don't even know how I got off the track

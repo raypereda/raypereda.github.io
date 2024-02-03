@@ -1,0 +1,33 @@
+MegaPatterns logo
+Count	Phrase
+265	.
+224	the
+213	,
+45	arbitration
+37	arbitrability
+26	groundless
+26	wholly
+18	agreement
+18	dispute
+14	arbitrability question
+7	arbitration agreement
+13	wholly groundless exception
+12	an arbitrator,
+12	of the Court
+6	to compel arbitration
+5	time and money
+11	to an arbitrator,
+8	Opinion of the Court
+6	the wholly groundless exception
+4	is inconsistent with the
+3	arbitration agreement applies to
+2	, as well as other
+2	, even if the court
+2	. As relevant here,
+5	contract delegates the arbitrability question to an arbitrator,
+2	that a court must always resolve questions of arbitrability
+2	whether the wholly groundless exception is consistent with the Federal Arbitration Act
+2	both money damages and injunctive relief. The relevant contract between the parties provided
+2	the court at the front end should also be able to say that the underlying issue is not arbitrable
+2	Under the Act, arbitration is a matter of contract, and courts must enforce arbitration contracts according to their terms. Rent-A-Center,
+2	. When the parties contract delegates the arbitrability question to an arbitrator, the courts must respect the parties decision as embodied in the contract. We

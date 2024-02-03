@@ -1,0 +1,955 @@
+//[Event "4th match"]
+//[Site "London"]
+//[Date "# ??.??"]
+//[Round "62"]
+//[White "McDonnell,A"]
+//[Black "De La Bourdonnais,L"]
+//[Result "0-1"]
+
+start e4 c5 # Nf3 Nc6 # d4 cxd4 # Nxd4 e5 # Nxc6 bxc6 # Bc4 Nf6 # Bg5 Be7 
+# Qe2 d5 # Bxf6 Bxf6 # Bb3 O-O # O-O a5 # exd5 cxd5 # Rd1 d4 # c4
+Qb6 # Bc2 Bb7 # Nd2 Rae8 # Ne4 Bd8 # c5 Qc6 # f3 Be7 # Rac1 f5 
+# Qc4+ Kh8 # Ba4 Qh6 # Bxe8 fxe4 # c6 exf3 # Rc2 Bc8 # Bd7 Qe3+ 
+# Kh1 f2 # Rf1 d3 # Rc3 Bxd7 # cxd7 e4 # Qc8 Bd8 # Qc4 Qe1 # Rc1 
+d2 # Qc5 Rg8 # Rd1 e3 # Qc3 Qxd1 # Rxd1 e2 0-1
+
+//[Event "Immortal game"]
+//[Site "London"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Anderssen,A"]
+//[Black "Kieseritzky,L"]
+//[Result "1-0"]
+
+start e4 e5 # f4 exf4 # Bc4 Qh4+ # Kf1 b5 # Bxb5 Nf6 # Nf3 Qh6 # d3 Nh5 # Nh4 
+Qg5 # Nf5 c6 # g4 Nf6 # Rg1 cxb5 # h4 Qg6 # h5 Qg5 # Qf3 Ng8 # Bxf4 
+Qf6 # Nc3 Bc5 # Nd5 Qxb2 # Bd6 Qxa1+ # Ke2 Bxg1 # e5 Na6 # Nxg7+ 
+Kd8 # Qf6+ Nxf6 # Be7+ 1-0
+
+//[Event "Evergreen game"]
+//[Site "Berlin"]
+//[Date "1852"]
+//[Round "?"]
+//[White "Anderssen,A"]
+//[Black "Dufresne,J"]
+//[Result "1-0"]
+
+start e4 e5 # Nf3 Nc6 # Bc4 Bc5 # b4 Bxb4 # c3 Ba5 # d4 exd4 # O-O d3 # Qb3
+Qf6 # e5 Qg6 # Re1 Nge7 # Ba3 b5 # Qxb5 Rb8 # Qa4 Bb6 # Nbd2 Bb7 
+# Ne4 Qf5 # Bxd3 Qh5 # Nf6+ gxf6 # exf6 Rg8 # Rad1 Qxf3 # Rxe7+ 
+Nxe7 # Qxd7+ Kxd7 # Bf5+ Ke8 # Bd7+ Kf8 # Bxe7+ 1-0
+
+//[Event "ch 4th match"]
+//[Site "USA"]
+//[Date "# ??.??"]
+//[Round "6"]
+//[White "Paulsen,L"]
+//[Black "Morphy,P"]
+//[Result "0-1"]
+
+start e4 e5 # Nf3 Nc6 # Nc3 Nf6 # Bb5 Bc5 # O-O O-O # Nxe5 Re8 # Nxc6 dxc6
+# Bc4 b5 # Be2 Nxe4 # Nxe4 Rxe4 # Bf3 Re6 # c3 Qd3 # b4 Bb6 # a4 
+bxa4 # Qxa4 Bd7 # Ra2 Rae8 # Qa6 Qxf3 # gxf3 Rg6+ # Kh1 Bh3 # Rd1 
+Bg2+ # Kg1 Bxf3+ # Kf1 Bg2+ # Kg1 Bh3+ # Kh1 Bxf2 # Qf1 Bxf1 # Rxf1 
+Re2 # Ra1 Rh6 # d4 Be3 0-1
+
+//[Event "?"]
+//[Site "Barmen"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Anderssen,A"]
+//[Black "Zukertort,J"]
+//[Result "1-0"]
+
+start e4 e5 # Nf3 Nc6 # Bc4 Bc5 # b4 Bxb4 # c3 Ba5 # d4 exd4 # O-O Bb6 # cxd4
+d6 # d5 Na5 # Bb2 Ne7 # Bd3 O-O # Nc3 Ng6 # Ne2 c5 # Qd2 f6 # Kh1
+Bc7 # Rac1 Rb8 # Ng3 b5 # Nf5 b4 # Rg1 Bb6 # g4 Ne5 # Bxe5 dxe5 
+# Rg3 Rf7 # g5 Bxf5 # exf5 Qxd5 # gxf6 Rd8 # Rcg1 Kh8 # fxg7+ Kg8 
+# Qh6 Qd6 # Qxh7+ Kxh7 # f6+ Kg8 # Bh7+ Kxh7 # Rh3+ Kg8 # Rh8+ 1-0
+
+//[Event "?"]
+//[Site "London"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Zukertort,J"]
+//[Black "Blackburne,J"]
+//[Result "1-0"]
+
+start c4 e6 # e3 Nf6 # Nf3 b6 # Be2 Bb7 # O-O d5 # d4 Bd6 # Nc3 O-O # b3 Nbd7
+# Bb2 Qe7 # Nb5 Ne4 # Nxd6 cxd6 # Nd2 Ndf6 # f3 Nxd2 # Qxd2 dxc4 
+# Bxc4 d5 # Bd3 Rfc8 # Rae1 Rc7 # e4 Rac8 # e5 Ne8 # f4 g6 # Re3 
+f6 # exf6 Nxf6 # f5 Ne4 # Bxe4 dxe4 # fxg6 Rc2 # gxh7+ Kh8 # d5+ e5 
+# Qb4 R8c5 # Rf8+ Kxh7 # Qxe4+ Kg7 # Bxe5+ Kxf8 # Bg7+ 1-0
+
+//[Event "WCh"]
+//[Site "USA"]
+//[Date "# ??.??"]
+//[Round "9"]
+//[White "Zukertort,J"]
+//[Black "Steinitz,W"]
+//[Result "0-1"]
+
+start d4 d5 # c4 e6 # Nc3 Nf6 # Nf3 dxc4 # e3 c5 # Bxc4 cxd4 # exd4 Be7 # O-O
+O-O # Qe2 Nbd7 # Bb3 Nb6 # Bf4 Nbd5 # Bg3 Qa5 # Rac1 Bd7 # Ne5 Rfd8
+# Qf3 Be8 # Rfe1 Rac8 # Bh4 Nxc3 # bxc3 Qc7 # Qd3 Nd5 # Bxe7 Qxe7 
+# Bxd5 Rxd5 # c4 Rdd8 # Re3 Qd6 # Rd1 f6 # Rh3 h6 # Ng4 Qf4 # Ne3 
+Ba4 # Rf3 Qd6 # Rd2 Bc6 # Rg3 f5 # Rg6 Be4 # Qb3 Kh7 # c5 Rxc5 
+# Rxe6 Rc1+ # Nd1 Qf4 # Qb2 Rb1 # Qc3 Rc8 # Rxe4 Qxe4 0-1
+
+//[Event "?"]
+//[Site "Amsterdam"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Lasker,Em"]
+//[Black "Bauer,I"]
+//[Result "1-0"]
+
+start f4 d5 # e3 Nf6 # b3 e6 # Bb2 Be7 # Bd3 b6 # Nf3 Bb7 # Nc3 Nbd7 # O-O
+O-O # Ne2 c5 # Ng3 Qc7 # Ne5 Nxe5 # Bxe5 Qc6 # Qe2 a6 # Nh5 Nxh5
+# Bxh7+ Kxh7 # Qxh5+ Kg8 # Bxg7 Kxg7 # Qg4+ Kh7 # Rf3 e5 # Rh3+ Qh6 
+# Rxh6+ Kxh6 # Qd7 Bf6 # Qxb7 Kg7 # Rf1 Rab8 # Qd7 Rfd8 # Qg4+ Kf8 
+# fxe5 Bg7 # e6 Rb7 # Qg6 f6 # Rxf6+ Bxf6 # Qxf6+ Ke8 # Qh8+ Ke7 
+# Qg7+ 1-0
+
+//[Event "WCh"]
+//[Site "Havana"]
+//[Date "# ??.??"]
+//[Round "4"]
+//[White "Steinitz,W"]
+//[Black "Chigorin,M"]
+//[Result "1-0"]
+
+start e4 e5 # Nf3 Nc6 # Bb5 Nf6 # d3 d6 # c3 g6 # Nbd2 Bg7 # Nf1 O-O # Ba4
+Nd7 # Ne3 Nc5 # Bc2 Ne6 # h4 Ne7 # h5 d5 # hxg6 fxg6 # exd5 Nxd5 
+# Nxd5 Qxd5 # Bb3 Qc6 # Qe2 Bd7 # Be3 Kh8 # O-O-O Rae8 # Qf1 a5
+# d4 exd4 # Nxd4 Bxd4 # Rxd4 Nxd4 # Rxh7+ Kxh7 # Qh1+ Kg7 # Bh6+ 
+Kf6 # Qh4+ Ke5 # Qxd4+ Kf5 # Qf4+ 1-0
+
+//[Event "?"]
+//[Site "Hastings"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Steinitz,W"]
+//[Black "Von Bardeleben,C"]
+//[Result "1-0"]
+
+start e4 e5 # Nf3 Nc6 # Bc4 Bc5 # c3 Nf6 # d4 exd4 # cxd4 Bb4+ # Nc3 d5 
+# exd5 Nxd5 # O-O Be6 # Bg5 Be7 # Bxd5 Bxd5 # Nxd5 Qxd5 # Bxe7 Nxe7
+# Re1 f6 # Qe2 Qd7 # Rac1 c6 # d5 cxd5 # Nd4 Kf7 # Ne6 Rhc8 # Qg4 
+g6 # Ng5+ Ke8 # Rxe7+ Kf8 # Rf7+ Kg8 # Rg7+ Kh8 # Rxh7+ Kg8 # Rg7+ 
+Kh8 # Qh4+ Kxg7 # Qh7+ Kf8 # Qh8+ Ke7 # Qg7+ Ke8 # Qg8+ Ke7 # Qf7+ 
+Kd8 # Qf8+ Qe8 # Nf7+ Kd7 # Qd6+ 1-0
+
+//[Event "?"]
+//[Site "St.Petersburg"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Pillsbury,H"]
+//[Black "Lasker,Em"]
+//[Result "0-1"]
+
+start d4 d5 # c4 e6 # Nc3 Nf6 # Nf3 c5 # Bg5 cxd4 # Qxd4 Nc6 # Qh4 Be7 
+# O-O-O Qa5 # e3 Bd7 # Kb1 h6 # cxd5 exd5 # Nd4 O-O # Bxf6 Bxf6
+# Qh5 Nxd4 # exd4 Be6 # f4 Rac8 # f5 Rxc3 # fxe6 Ra3 # exf7+ Rxf7 
+# bxa3 Qb6+ # Bb5 Qxb5+ # Ka1 Rc7 # Rd2 Rc4 # Rhd1 Rc3 # Qf5 Qc4 
+# Kb2 Rxa3 # Qe6+ Kh7 # Kxa3 Qc3+ # Ka4 b5+ # Kxb5 Qc4+ # Ka5 Bd8+ 
+# Qb6 Bxb6+ 0-1
+
+//[Event "?"]
+//[Site "Nuernberg"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Pillsbury,H"]
+//[Black "Lasker,Em"]
+//[Result "1-0"]
+
+start e4 e6 # d4 d5 # Nc3 Nf6 # e5 Nfd7 # f4 c5 # dxc5 Nc6 # a3 Nxc5 # b4 Nd7 
+# Bd3 a5 # b5 Ncb8 # Nf3 Nc5 # Be3 Nbd7 # O-O g6 # Ne2 Be7 # Qe1
+Nb6 # Nfd4 Bd7 # Qf2 Nba4 # Rab1 h5 # b6 Nxd3 # cxd3 Bxa3 # f5 gxf5 
+# Nf4 h4 # Ra1 Be7 # Rxa4 Bxa4 # Nfxe6 fxe6 # Nxe6 Bd7 # Nxd8 Rxd8 
+# Bc5 Rc8 # Bxe7 Kxe7 # Qe3 Rc6 # Qg5+ Kf7 # Rc1 Rxc1+ # Qxc1 Rc8 
+# Qe1 h3 # gxh3 Rg8+ # Kf2 a4 # Qb4 Rg6 # Kf3 1-0
+
+//[Event "?"]
+//[Site "Cambridge Springs"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Lasker,Em"]
+//[Black "Napier,W"]
+//[Result "1-0"]
+
+start e4 c5 # Nc3 Nc6 # Nf3 g6 # d4 cxd4 # Nxd4 Bg7 # Be3 d6 # h3 Nf6 # g4 
+O-O # g5 Ne8 # h4 Nc7 # f4 e5 # Nde2 d5 # exd5 Nd4 # Nxd4 Nxd5
+# Nf5 Nxc3 # Qxd8 Rxd8 # Ne7+ Kh8 # h5 Re8 # Bc5 gxh5 # Bc4 exf4 
+# Bxf7 Ne4 # Bxe8 Bxb2 # Rb1 Bc3+ # Kf1 Bg4 # Bxh5 Bxh5 # Rxh5 Ng3+ 
+# Kg2 Nxh5 # Rxb7 a5 # Rb3 Bg7 # Rh3 Ng3 # Kf3 Ra6 # Kxf4 Ne2+ 
+# Kf5 Nc3 # a3 Na4 # Be3 Bf8 # Bd4+ Bg7 # g6 1-0
+
+//[Event "?"]
+//[Site "Lodz"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Rotlevi,G"]
+//[Black "Rubinstein,A"]
+//[Result "0-1"]
+
+start d4 d5 # Nf3 e6 # e3 c5 # c4 Nc6 # Nc3 Nf6 # dxc5 Bxc5 # a3 a6 # b4 Bd6 
+# Bb2 O-O # Qd2 Qe7 # Bd3 dxc4 # Bxc4 b5 # Bd3 Rd8 # Qe2 Bb7 # O-O
+Ne5 # Nxe5 Bxe5 # f4 Bc7 # e4 Rac8 # e5 Bb6+ # Kh1 Ng4 # Be4 Qh4 
+# g3 Rxc3 # gxh4 Rd2 # Qxd2 Bxe4+ # Qg2 Rh3 0-1
+
+//[Event "WCh"]
+//[Site "Paris"]
+//[Date "# ??.??"]
+//[Round "2"]
+//[White "Janowski,D"]
+//[Black "Lasker,Em"]
+//[Result "0-1"]
+
+start e4 e5 # Nf3 Nc6 # Nc3 Nf6 # Bb5 Bb4 # O-O O-O # d3 d6 # Bg5 Bxc3 # bxc3
+Ne7 # Bc4 Ng6 # Nh4 Nf4 # Bxf4 exf4 # Nf3 Bg4 # h3 Bh5 # Rb1 b6 
+# Qd2 Bxf3 # gxf3 Nh5 # Kh2 Qf6 # Rg1 Rae8 # d4 Kh8 # Rb5 Qh6 
+# Rbg5 f6 # R5g4 g6 # Bd3 Re7 # c4 Ng7 # c3 Ne6 # Bf1 f5 # R4g2 
+Rf6 # Bd3 g5 # Rh1 g4 # Be2 Ng5 # fxg4 f3 # Rg3 fxe2 0-1
+
+//[Event "?"]
+//[Site "Karlsbad"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Nimzovitch,A"]
+//[Black "Salwe,G"]
+//[Result "1-0"]
+
+start e4 e6 # d4 d5 # e5 c5 # c3 Nc6 # Nf3 Qb6 # Bd3 Bd7 # dxc5 Bxc5 # O-O f6
+# b4 Be7 # Bf4 fxe5 # Nxe5 Nxe5 # Bxe5 Nf6 # Nd2 O-O # Nf3 Bd6
+# Qe2 Rac8 # Bd4 Qc7 # Ne5 Be8 # Rae1 Bxe5 # Bxe5 Qc6 # Bd4 Bd7 
+# Qc2 Rf7 # Re3 b6 # Rg3 Kh8 # Bxh7 e5 # Bg6 Re7 # Re1 Qd6 # Be3 
+d4 # Bg5 Rxc3 # Rxc3 dxc3 # Qxc3 Kg8 # a3 Kf8 # Bh4 Be8 # Bf5 Qd4 
+# Qxd4 exd4 # Rxe7 Kxe7 # Bd3 Kd6 # Bxf6 gxf6 # h4 1-0
+
+//[Event "?"]
+//[Site "San Sebastian"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Capablanca,J"]
+//[Black "Bernstein,O"]
+//[Result "1-0"]
+
+start e4 e5 # Nf3 Nc6 # Bb5 Nf6 # O-O Be7 # Nc3 d6 # Bxc6+ bxc6 # d4 exd4
+# Nxd4 Bd7 # Bg5 O-O # Re1 h6 # Bh4 Nh7 # Bxe7 Qxe7 # Qd3 Rab8 # b3
+Ng5 # Rad1 Qe5 # Qe3 Ne6 # Nce2 Qa5 # Nf5 Nc5 # Ned4 Kh7 # g4 Rbe8 
+# f3 Ne6 # Ne2 Qxa2 # Neg3 Qxc2 # Rc1 Qb2 # Nh5 Rh8 # Re2 Qe5 # f4 
+Qb5 # Nfxg7 Nc5 # Nxe8 Bxe8 # Qc3 f6 # Nxf6+ Kg6 # Nh5 Rg8 # f5+ 
+Kg5 # Qe3+ Kh4 # Qg3+ 1-0
+
+//[Event "?"]
+//[Site "Breslau"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Levitzky,S"]
+//[Black "Marshall,F"]
+//[Result "0-1"]
+
+start d4 e6 # e4 d5 # Nc3 c5 # Nf3 Nc6 # exd5 exd5 # Be2 Nf6 # O-O Be7 # Bg5
+O-O # dxc5 Be6 # Nd4 Bxc5 # Nxe6 fxe6 # Bg4 Qd6 # Bh3 Rae8 # Qd2 Bb4
+# Bxf6 Rxf6 # Rad1 Qc5 # Qe2 Bxc3 # bxc3 Qxc3 # Rxd5 Nd4 # Qh5 Ref8 
+# Re5 Rh6 # Qg5 Rxh3 # Rc5 Qg3 0-1
+
+//[Event "?"]
+//[Site "St.Petersburg"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Lasker,Em"]
+//[Black "Capablanca,J"]
+//[Result "1-0"]
+
+start e4 e5 # Nf3 Nc6 # Bb5 a6 # Bxc6 dxc6 # d4 exd4 # Qxd4 Qxd4 # Nxd4 Bd6 
+# Nc3 Ne7 # O-O O-O # f4 Re8 # Nb3 f6 # f5 b6 # Bf4 Bb7 # Bxd6 cxd6
+# Nd4 Rad8 # Ne6 Rd7 # Rad1 Nc8 # Rf2 b5 # Rfd2 Rde7 # b4 Kf7 # a3 
+Ba8 # Kf2 Ra7 # g4 h6 # Rd3 a5 # h4 axb4 # axb4 Rae7 # Kf3 Rg8 
+# Kf4 g6 # Rg3 g5+ # Kf3 Nb6 # hxg5 hxg5 # Rh3 Rd7 # Kg3 Ke8 
+# Rdh1 Bb7 # e5 dxe5 # Ne4 Nd5 # N6c5 Bc8 # Nxd7 Bxd7 # Rh7 Rf8 
+# Ra1 Kd8 # Ra8+ Bc8 # Nc5 1-0
+
+//[Event "?"]
+//[Site "St.Petersburg"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Nimzovitch,A"]
+//[Black "Tarrasch,S"]
+//[Result "0-1"]
+
+start d4 d5 # Nf3 c5 # c4 e6 # e3 Nf6 # Bd3 Nc6 # O-O Bd6 # b3 O-O # Bb2 b6
+# Nbd2 Bb7 # Rc1 Qe7 # cxd5 exd5 # Nh4 g6 # Nhf3 Rad8 # dxc5 bxc5 
+# Bb5 Ne4 # Bxc6 Bxc6 # Qc2 Nxd2 # Nxd2 d4 # exd4 Bxh2+ # Kxh2 Qh4+ 
+# Kg1 Bxg2 # f3 Rfe8 # Ne4 Qh1+ # Kf2 Bxf1 # d5 f5 # Qc3 Qg2+ 
+# Ke3 Rxe4+ # fxe4 f4+ # Kxf4 Rf8+ # Ke5 Qh2+ # Ke6 Re8+ # Kd7 Bb5+ 
+0-1
+
+//[Event "?"]
+//[Site "New York"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Capablanca,J"]
+//[Black "Marshall,F"]
+//[Result "1-0"]
+
+start e4 e5 # Nf3 Nc6 # Bb5 a6 # Ba4 Nf6 # O-O Be7 # Re1 b5 # Bb3 O-O # c3 d5
+# exd5 Nxd5 # Nxe5 Nxe5 # Rxe5 Nf6 # Re1 Bd6 # h3 Ng4 # Qf3 Qh4 
+# d4 Nxf2 # Re2 Bg4 # hxg4 Bh2+ # Kf1 Bg3 # Rxf2 Qh1+ # Ke2 Bxf2 
+# Bd2 Bh4 # Qh3 Rae8+ # Kd3 Qf1+ # Kc2 Bf2 # Qf3 Qg1 # Bd5 c5 
+# dxc5 Bxc5 # b4 Bd6 # a4 a5 # axb5 axb4 # Ra6 bxc3 # Nxc3 Bb4 
+# b6 Bxc3 # Bxc3 h6 # b7 Re3 # Bxf7+ Rxf7 # b8=Q+ Kh7 # Rxh6+ 1-0
+
+//[Event "?"]
+//[Site "Hastings"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Bogoljubow,J"]
+//[Black "Alekhine,A"]
+//[Result "0-1"]
+
+start d4 f5 # c4 Nf6 # g3 e6 # Bg2 Bb4+ # Bd2 Bxd2+ # Nxd2 Nc6 # Ngf3 O-O
+# O-O d6 # Qb3 Kh8 # Qc3 e5 # e3 a5 # b3 Qe8 # a3 Qh5 # h4 Ng4
+# Ng5 Bd7 # f3 Nf6 # f4 e4 # Rfd1 h6 # Nh3 d5 # Nf1 Ne7 # a4 Nc6 
+# Rd2 Nb4 # Bh1 Qe8 # Rg2 dxc4 # bxc4 Bxa4 # Nf2 Bd7 # Nd2 b5 
+# Nd1 Nd3 # Rxa5 b4 # Rxa8 bxc3 # Rxe8 c2 # Rxf8+ Kh7 # Nf2 c1=Q+
+# Nf1 Ne1 # Rh2 Qxc4 # Rb8 Bb5 # Rxb5 Qxb5 # g4 Nf3+ # Bxf3 exf3 
+# gxf5 Qe2 # d5 Kg8 # h5 Kh7 # e4 Nxe4 # Nxe4 Qxe4 # d6 cxd6 # f6 
+gxf6 # Rd2 Qe2 # Rxe2 fxe2 # Kf2 exf1=Q+ # Kxf1 Kg7 # Kf2 Kf7 # Ke3
+Ke6 # Ke4 d5+ 0-1
+
+//[Event "?"]
+//[Site "Copenhagen"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Saemisch,F"]
+//[Black "Nimzovitch,A"]
+//[Result "0-1"]
+
+start d4 Nf6 # c4 e6 # Nf3 b6 # g3 Bb7 # Bg2 Be7 # Nc3 O-O # O-O d5 # Ne5 c6
+# cxd5 cxd5 # Bf4 a6 # Rc1 b5 # Qb3 Nc6 # Nxc6 Bxc6 # h3 Qd7 # Kh2 
+Nh5 # Bd2 f5 # Qd1 b4 # Nb1 Bb5 # Rg1 Bd6 # e4 fxe4 # Qxh5 Rxf2 
+# Qg5 Raf8 # Kh1 R8f5 # Qe3 Bd3 # Rce1 h6 0-1
+
+//[Event "?"]
+//[Site "New York"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Reti,R"]
+//[Black "Lasker,Em"]
+//[Result "0-1"]
+
+start Nf3 d5 # c4 c6 # b3 Bf5 # g3 Nf6 # Bg2 Nbd7 # Bb2 e6 # O-O Bd6 # d3 O-O
+# Nbd2 e5 # cxd5 cxd5 # Rc1 Qe7 # Rc2 a5 # a4 h6 # Qa1 Rfe8 # Rfc1 
+Bh7 # Nf1 Nc5 # Rxc5 Bxc5 # Nxe5 Rac8 # Ne3 Qe6 # h3 Bd6 # Rxc8 
+Rxc8 # Nf3 Be7 # Nd4 Qd7 # Kh2 h5 # Qh1 h4 # Nxd5 hxg3+ # fxg3 Nxd5 
+# Bxd5 Bf6 # Bxb7 Rc5 # Ba6 Bg6 # Qb7 Qd8 # b4 Rc7 # Qb6 Rd7 
+# Qxd8+ Rxd8 # e3 axb4 # Kg2 Bxd4 # exd4 Bf5 # Bb7 Be6 # Kf3 Bb3 
+# Bc6 Rd6 # Bb5 Rf6+ # Ke3 Re6+ # Kf4 Re2 # Bc1 Rc2 # Be3 Bd5 0-1
+
+//[Event "?"]
+//[Site "Baden-Baden"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Reti,R"]
+//[Black "Alekhine,A"]
+//[Result "0-1"]
+
+start g3 e5 # Nf3 e4 # Nd4 d5 # d3 exd3 # Qxd3 Nf6 # Bg2 Bb4+ # Bd2 Bxd2+ 
+# Nxd2 O-O # c4 Na6 # cxd5 Nb4 # Qc4 Nbxd5 # N2b3 c6 # O-O Re8
+# Rfd1 Bg4 # Rd2 Qc8 # Nc5 Bh3 # Bf3 Bg4 # Bg2 Bh3 # Bf3 Bg4 # Bh1 
+h5 # b4 a6 # Rc1 h4 # a4 hxg3 # hxg3 Qc7 # b5 axb5 # axb5 Re3 
+# Nf3 cxb5 # Qxb5 Nc3 # Qxb7 Qxb7 # Nxb7 Nxe2+ # Kh2 Ne4 # Rc4 Nxf2 
+# Bg2 Be6 # Rcc2 Ng4+ # Kh3 Ne5+ # Kh2 Rxf3 # Rxe2 Ng4+ # Kh3 Ne3+ 
+# Kh2 Nxc2 # Bxf3 Nd4 # Rf2 Nxf3+ # Rxf3 Bd5 0-1
+
+//[Event "?"]
+//[Site "Dresden"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Johner,P"]
+//[Black "Nimzovitch,A"]
+//[Result "0-1"]
+
+start d4 Nf6 # c4 e6 # Nc3 Bb4 # e3 O-O # Bd3 c5 # Nf3 Nc6 # O-O Bxc3 # bxc3
+d6 # Nd2 b6 # Nb3 e5 # f4 e4 # Be2 Qd7 # h3 Ne7 # Qe1 h5 # Bd2 Qf5 
+# Kh2 Qh7 # a4 Nf5 # g3 a5 # Rg1 Nh6 # Bf1 Bd7 # Bc1 Rac8 # d5 Kh8 
+# Nd2 Rg8 # Bg2 g5 # Nf1 Rg7 # Ra2 Nf5 # Bh1 Rcg8 # Qd1 gxf4 
+# exf4 Bc8 # Qb3 Ba6 # Re2 Nh4 # Re3 Bc8 # Qc2 Bxh3 # Bxe4 Bf5 
+# Bxf5 Nxf5 # Re2 h4 # Rgg2 hxg3+ # Kg1 Qh3 # Ne3 Nh4 # Kf1 Re8 0-1
+
+//[Event "?"]
+//[Site "New York"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Nimzovitch,A"]
+//[Black "Capablanca,J"]
+//[Result "0-1"]
+
+start e4 c6 # d4 d5 # e5 Bf5 # Bd3 Bxd3 # Qxd3 e6 # Nc3 Qb6 # Nge2 c5 # dxc5 
+Bxc5 # O-O Ne7 # Na4 Qc6 # Nxc5 Qxc5 # Be3 Qc7 # f4 Nf5 # c3 Nc6
+# Rad1 g6 # g4 Nxe3 # Qxe3 h5 # g5 O-O # Nd4 Qb6 # Rf2 Rfc8 # a3
+Rc7 # Rd3 Na5 # Re2 Re8 # Kg2 Nc6 # Red2 Rec8 # Re2 Ne7 # Red2 Rc4 
+# Qh3 Kg7 # Rf2 a5 # Re2 Nf5 # Nxf5+ gxf5 # Qf3 Kg6 # Red2 Re4 
+# Rd4 Rc4 # Qf2 Qb5 # Kg3 Rcxd4 # cxd4 Qc4 # Kg2 b5 # Kg1 b4 
+# axb4 axb4 # Kg2 Qc1 # Kg3 Qh1 # Rd3 Re1 # Rf3 Rd1 # b3 Rc1 # Re3 
+Rf1 0-1
+
+//[Event "WCh"]
+//[Site "Buenos Aires"]
+//[Date "# ??.??"]
+//[Round "21"]
+//[White "Capablanca,J"]
+//[Black "Alekhine,A"]
+//[Result "0-1"]
+
+start d4 d5 # c4 e6 # Nc3 Nf6 # Bg5 Nbd7 # e3 Be7 # Nf3 O-O # Rc1 a6 # a3 h6
+# Bh4 dxc4 # Bxc4 b5 # Be2 Bb7 # O-O c5 # dxc5 Nxc5 # Nd4 Rc8 # b4
+Ncd7 # Bg3 Nb6 # Qb3 Nfd5 # Bf3 Rc4 # Ne4 Qc8 # Rxc4 Nxc4 # Rc1 Qa8 
+# Nc3 Rc8 # Nxd5 Bxd5 # Bxd5 Qxd5 # a4 Bf6 # Nf3 Bb2 # Re1 Rd8 
+# axb5 axb5 # h3 e5 # Rb1 e4 # Nd4 Bxd4 # Rd1 Nxe3 0-1
+
+//[Event "?"]
+//[Site "Karlsbad"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Capablanca,J"]
+//[Black "Treybal,K"]
+//[Result "1-0"]
+
+start d4 d5 # c4 c6 # Nf3 e6 # Bg5 Be7 # Bxe7 Qxe7 # Nbd2 f5 # e3 Nd7 # Bd3 
+Nh6 # O-O O-O # Qc2 g6 # Rab1 Nf6 # Ne5 Nf7 # f4 Bd7 # Ndf3 Rfd8
+# b4 Be8 # Rfc1 a6 # Qf2 Nxe5 # Nxe5 Nd7 # Nf3 Rdc8 # c5 Nf6 # a4 
+Ng4 # Qe1 Nh6 # h3 Nf7 # g4 Bd7 # Rc2 Kh8 # Rg2 Rg8 # g5 Qd8 # h4 
+Kg7 # h5 Rh8 # Rh2 Qc7 # Qc3 Qd8 # Kf2 Qc7 # Rbh1 Rag8 # Qa1 Rb8 
+# Qa3 Rbg8 # b5 axb5 # h6+ Kf8 # axb5 Ke7 # b6 Qb8 # Ra1 Rc8 # Qb4 
+Rhd8 # Ra7 Kf8 # Rh1 Be8 # Rha1 Kg8 # R1a4 Kf8 # Qa3 Kg8 # Kg3 Bd7 
+# Kh4 Kh8 # Qa1 Kg8 # Kg3 Kf8 # Kg2 Be8 # Nd2 Bd7 # Nb3 Re8 # Na5 
+Nd8 # Ba6 bxa6 # Rxd7 Re7 # Rxd8+ Rxd8 # Nxc6 1-0
+
+//[Event "WCh"]
+//[Site "GER\NLD"]
+//[Date "# ??.??"]
+//[Round "18"]
+//[White "Bogoljubow,E"]
+//[Black "Alekhine,A"]
+//[Result "1-0"]
+
+start e4 e6 # d4 d5 # Nc3 Nf6 # Bg5 dxe4 # Nxe4 Be7 # Bxf6 gxf6 # Nf3 f5 
+# Nc3 c6 # g3 Nd7 # Bg2 Qc7 # Qe2 b5 # Ne5 Bb7 # O-O-O Nb6 # Qh5 Rf8
+# f4 b4 # Ne2 Nd5 # Bxd5 cxd5 # Kb1 a5 # g4 fxg4 # f5 exf5 # Qxf5 
+a4 # Rhe1 a3 # b3 Bc8 # Qxh7 Be6 # Qd3 O-O-O # c3 Kb7 # Rc1 Qb6
+# cxb4 Bxb4 # Rc6 Qa5 # Rec1 Rc8 # Nf4 Bd6 # Nxe6 fxe6 # Qh7+ Rc7 
+# Rxc7+ Bxc7 # Qd7 Qb6 # Nd3 Rd8 # Rxc7+ Qxc7 # Nc5+ Kb6 # Qxc7+ 
+Kxc7 # Nxe6+ Kd7 # Nxd8 Kxd8 # b4 Kd7 # Kc2 Kc6 # Kb3 Kb5 # Kxa3 
+Kc4 # b5 Kxb5 # Kb3 Ka5 # a4 Ka6 # Kb4 Kb6 # a5+ Kc6 # Ka4 1-0
+
+//[Event "WCh"]
+//[Site "NLD"]
+//[Date "# ??.??"]
+//[Round "26"]
+//[White "Euwe,M"]
+//[Black "Alekhine,A"]
+//[Result "1-0"]
+
+start d4 e6 # c4 f5 # g3 Bb4+ # Bd2 Be7 # Bg2 Nf6 # Nc3 O-O # Nf3 Ne4 # O-O
+b6 # Qc2 Bb7 # Ne5 Nxc3 # Bxc3 Bxg2 # Kxg2 Qc8 # d5 d6 # Nd3 e5 
+# Kh1 c6 # Qb3 Kh8 # f4 e4 # Nb4 c5 # Nc2 Nd7 # Ne3 Bf6 # Nxf5 
+Bxc3 # Nxd6 Qb8 # Nxe4 Bf6 # Nd2 g5 # e4 gxf4 # gxf4 Bd4 # e5 Qe8 
+# e6 Rg8 # Nf3 Qg6 # Rg1 Bxg1 # Rxg1 Qf6 # Ng5 Rg7 # exd7 Rxd7 
+# Qe3 Re7 # Ne6 Rf8 # Qe5 Qxe5 # fxe5 Rf5 # Re1 h6 # Nd8 Rf2 # e6 
+Rd2 # Nc6 Re8 # e7 b5 # Nd8 Kg7 # Nb7 Kf6 # Re6+ Kg5 # Nd6 Rxe7 
+# Ne4+ 1-0
+
+//[Event "?"]
+//[Site "Nottingham"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Botvinnik,M"]
+//[Black "Tartakower,S"]
+//[Result "1-0"]
+
+start Nf3 Nf6 # c4 d6 # d4 Nbd7 # g3 e5 # Bg2 Be7 # O-O O-O # Nc3 c6 # e4 Qc7
+# h3 Re8 # Be3 Nf8 # Rc1 h6 # d5 Bd7 # Nd2 g5 # f4 gxf4 # gxf4 Kg7 
+# fxe5 dxe5 # c5 cxd5 # Nxd5 Qc6 # Nc4 Ng6 # Nd6 Be6 # Nxe7 Nxe7 
+# Rxf6 Kxf6 # Qh5 Ng6 # Nf5 Rg8 # Qxh6 Bxa2 # Rd1 Rad8 # Qg5+ Ke6 
+# Rxd8 f6 # Rxg8 Nf4 # Qg7 1-0
+
+//[Event "?"]
+//[Site "Semmering"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Reshevsky,S"]
+//[Black "Keres,P"]
+//[Result "0-1"]
+
+start Nf3 Nf6 # d4 e6 # c4 b6 # g3 Bb7 # Bg2 Bb4+ # Bd2 Bxd2+ # Qxd2 O-O
+# O-O d6 # Qc2 Nbd7 # Nc3 Qe7 # e4 Rac8 # Rfe1 e5 # Rad1 c6 # Qa4
+Rc7 # Qa3 Re8 # b3 g6 # dxe5 dxe5 # Qxe7 Rxe7 # Bh3 Bc8 # b4 Nf8 
+# Bxc8 Rxc8 # Rd6 Ne8 # Rd3 f6 # Red1 Kf7 # a4 Ke6 # Rd8 Rec7 
+# Kf1 Ke7 # R8d3 Rd7 # Rxd7+ Nxd7 # Ke2 Nd6 # Nd2 Nf8 # Ra1 Ne6 
+# a5 b5 # cxb5 Nd4+ # Kd3 cxb5 # Rc1 Ke6 # Ne2 Nc6 # Rb1 Rd8 # Kc3 
+f5 # exf5+ gxf5 # f3 Rc8 # Kd3 Ne8 # Nc3 Nf6 # Rb2 a6 # g4 e4+ 
+# fxe4 Ne5+ # Kc2 fxg4 # Kb3 Nc4 # Nxc4 Rxc4 # Re2 Ke5 # Re1 h5 
+# Rd1 h4 # Rd8 g3 # hxg3 hxg3 # Rd3 g2 # Ne2 Rxe4 # Ng1 Re1 0-1
+
+//[Event "AVRO"]
+//[Site "?"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Botvinnik,M"]
+//[Black "Capablanca,J"]
+//[Result "1-0"]
+
+start d4 Nf6 # c4 e6 # Nc3 Bb4 # e3 d5 # a3 Bxc3+ # bxc3 c5 # cxd5 exd5 # Bd3 
+O-O # Ne2 b6 # O-O Ba6 # Bxa6 Nxa6 # Bb2 Qd7 # a4 Rfe8 # Qd3 c4
+# Qc2 Nb8 # Rae1 Nc6 # Ng3 Na5 # f3 Nb3 # e4 Qxa4 # e5 Nd7 # Qf2 
+g6 # f4 f5 # exf6 Nxf6 # f5 Rxe1 # Rxe1 Re8 # Re6 Rxe6 # fxe6 Kg7 
+# Qf4 Qe8 # Qe5 Qe7 # Ba3 Qxa3 # Nh5+ gxh5 # Qg5+ Kf8 # Qxf6+ Kg8 
+# e7 Qc1+ # Kf2 Qc2+ # Kg3 Qd3+ # Kh4 Qe4+ # Kxh5 Qe2+ # Kh4 Qe4+ 
+# g4 Qe1+ # Kh5 1-0
+
+//[Event "m"]
+//[Site "Rotterdam"]
+//[Date "# ??.??"]
+//[Round "9"]
+//[White "Euwe,M"]
+//[Black "Keres,P"]
+//[Result "0-1"]
+
+start d4 Nf6 # c4 e6 # Nf3 b6 # g3 Bb7 # Bg2 Be7 # O-O O-O # Nc3 Ne4 # Qc2
+Nxc3 # Qxc3 d6 # Qc2 f5 # Ne1 Qc8 # e4 Nd7 # d5 fxe4 # Qxe4 Nc5 
+# Qe2 Bf6 # Bh3 Re8 # Be3 Qd8 # Bxc5 exd5 # Be6+ Kh8 # Rd1 dxc5 
+# Ng2 d4 # f4 d3 # Rxd3 Qxd3 # Qxd3 Bd4+ # Rf2 Rxe6 # Kf1 Rae8 
+# f5 Re5 # f6 gxf6 # Rd2 Bc8 # Nf4 Re3 # Qb1 Rf3+ # Kg2 Rxf4 
+# gxf4 Rg8+ # Kf3 Bg4+ 0-1
+
+//[Event "ch"]
+//[Site "URS"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Keres,P"]
+//[Black "Botvinnik,M"]
+//[Result "0-1"]
+
+start d4 Nf6 # c4 e6 # Nc3 Bb4 # Qc2 d5 # cxd5 exd5 # Bg5 h6 # Bh4 c5 # O-O-O
+Bxc3 # Qxc3 g5 # Bg3 cxd4 # Qxd4 Nc6 # Qa4 Bf5 # e3 Rc8 # Bd3 Qd7 
+# Kb1 Bxd3+ # Rxd3 Qf5 # e4 Nxe4 # Ka1 O-O # Rd1 b5 # Qxb5 Nd4
+# Qd3 Nc2+ # Kb1 Nb4 0-1
+
+//[Event "URS USA"]
+//[Site "?"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Smyslov,V"]
+//[Black "Reshevsky,S"]
+//[Result "1-0"]
+
+start e4 e5 # Nf3 Nc6 # Bb5 a6 # Ba4 Nf6 # O-O Nxe4 # d4 b5 # Bb3 d5 # dxe5
+Be6 # c3 Bc5 # Nbd2 O-O # Bc2 f5 # Nb3 Bb6 # Nfd4 Nxd4 # Nxd4 Bxd4
+# cxd4 f4 # f3 Ng3 # hxg3 fxg3 # Qd3 Bf5 # Qxf5 Rxf5 # Bxf5 Qh4 
+# Bh3 Qxd4+ # Kh1 Qxe5 # Bd2 Qxb2 # Bf4 c5 # Be6+ Kh8 # Bxd5 Rd8 
+# Rad1 c4 # Bxg3 c3 # Be5 b4 # Bb3 Rd2 # f4 h5 # Rb1 Rf2 # Rfe1 
+Qd2 # Rbd1 Qb2 # Rd8+ Kh7 # Bg8+ Kg6 # Rd6+ Kf5 # Be6+ Kg6 # Bd5+ 
+Kh7 # Be4+ Kg8 # Bg6 1-0
+
+//[Event "WCh"]
+//[Site "Moscow"]
+//[Date "# ??.??"]
+//[Round "23"]
+//[White "Botvinnik,M"]
+//[Black "Bronstein,D"]
+//[Result "1-0"]
+
+start d4 Nf6 # c4 g6 # g3 c6 # Bg2 d5 # cxd5 cxd5 # Nc3 Bg7 # Nh3 Bxh3 # Bxh3 
+Nc6 # Bg2 e6 # e3 O-O # Bd2 Rc8 # O-O Nd7 # Ne2 Qb6 # Bc3 Rfd8
+# Nf4 Nf6 # Qb3 Ne4 # Qxb6 axb6 # Be1 Na5 # Nd3 Bf8 # f3 Nd6 # Bf2 
+Bh6 # Rac1 Nac4 # Rfe1 Na5 # Kf1 Bg7 # g4 Nc6 # b3 Nb5 # Ke2 Bf8 
+# a4 Nc7 # Bg3 Na6 # Bf1 f6 # Red1 Na5 # Rxc8 Rxc8 # Rc1 Rxc1 
+# Nxc1 Ba3 # Kd1 Bxc1 # Kxc1 Nxb3+ # Kc2 Na5 # Kc3 Kf7 # e4 f5 
+# gxf5 gxf5 # Bd3 Kg6 # Bd6 Nc6 # Bb1 Kf6 # Bg3 fxe4 # fxe4 h6 
+# Bf4 h5 # exd5 exd5 # h4 Nab8 # Bg5+ Kf7 # Bf5 Na7 # Bf4 Nbc6 
+# Bd3 Nc8 # Be2 Kg6 # Bd3+ Kf6 # Be2 Kg6 # Bf3 N6e7 # Bg5 1-0
+
+//[Event "ct"]
+//[Site "SWZ"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Averbakh,Y"]
+//[Black "Kotov,A"]
+//[Result "0-1"]
+
+start d4 Nf6 # c4 d6 # Nf3 Nbd7 # Nc3 e5 # e4 Be7 # Be2 O-O # O-O c6 # Qc2
+Re8 # Rd1 Bf8 # Rb1 a5 # d5 Nc5 # Be3 Qc7 # h3 Bd7 # Rbc1 g6 # Nd2 
+Rab8 # Nb3 Nxb3 # Qxb3 c5 # Kh2 Kh8 # Qc2 Ng8 # Bg4 Nh6 # Bxd7 Qxd7 
+# Qd2 Ng8 # g4 f5 # f3 Be7 # Rg1 Rf8 # Rcf1 Rf7 # gxf5 gxf5 # Rg2 
+f4 # Bf2 Rf6 # Ne2 Qxh3+ # Kxh3 Rh6+ # Kg4 Nf6+ # Kf5 Nd7 # Rg5 
+Rf8+ # Kg4 Nf6+ # Kf5 Ng8+ # Kg4 Nf6+ # Kf5 Nxd5+ # Kg4 Nf6+ # Kf5 
+Ng8+ # Kg4 Nf6+ # Kf5 Ng8+ # Kg4 Bxg5 # Kxg5 Rf7 # Bh4 Rg6+ # Kh5 
+Rfg7 # Bg5 Rxg5+ # Kh4 Nf6 # Ng3 Rxg3 # Qxd6 R3g6 # Qb8+ Rg8 0-1
+
+//[Event "WCh"]
+//[Site "Moscow"]
+//[Date "# ??.??"]
+//[Round "14"]
+//[White "Botvinnik,M"]
+//[Black "Smyslov,V"]
+//[Result "0-1"]
+
+start d4 Nf6 # c4 g6 # g3 Bg7 # Bg2 O-O # Nc3 d6 # Nf3 Nbd7 # O-O e5 # e4 c6
+# Be3 Ng4 # Bg5 Qb6 # h3 exd4 # Na4 Qa6 # hxg4 b5 # Nxd4 bxa4 
+# Nxc6 Qxc6 # e5 Qxc4 # Bxa8 Nxe5 # Rc1 Qb4 # a3 Qxb2 # Qxa4 Bb7 
+# Rb1 Nf3+ # Kh1 Bxa8 # Rxb2 Nxg5+ # Kh2 Nf3+ # Kh3 Bxb2 # Qxa7 Be4 
+# a4 Kg7 # Rd1 Be5 # Qe7 Rc8 # a5 Rc2 # Kg2 Nd4+ # Kf1 Bf3 # Rb1 
+Nc6 0-1
+
+//[Event "ch"]
+//[Site "USA"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Byrne,D"]
+//[Black "Fischer,R"]
+//[Result "0-1"]
+
+start Nf3 Nf6 # c4 g6 # Nc3 Bg7 # d4 O-O # Bf4 d5 # Qb3 dxc4 # Qxc4 c6 # e4
+Nbd7 # Rd1 Nb6 # Qc5 Bg4 # Bg5 Na4 # Qa3 Nxc3 # bxc3 Nxe4 # Bxe7 Qb6 
+# Bc4 Nxc3 # Bc5 Rfe8+ # Kf1 Be6 # Bxb6 Bxc4+ # Kg1 Ne2+ # Kf1 
+Nxd4+ # Kg1 Ne2+ # Kf1 Nc3+ # Kg1 axb6 # Qb4 Ra4 # Qxb6 Nxd1 # h3 
+Rxa2 # Kh2 Nxf2 # Re1 Rxe1 # Qd8+ Bf8 # Nxe1 Bd5 # Nf3 Ne4 # Qb8 b5 
+# h4 h5 # Ne5 Kg7 # Kg1 Bc5+ # Kf1 Ng3+ # Ke1 Bb4+ # Kd1 Bb3+ 
+# Kc1 Ne2+ # Kb1 Nc3+ # Kc1 Rc2+ 0-1
+
+//[Event "ch"]
+//[Site "URS"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Polugaevsky,L"]
+//[Black "Neshmetdinov,R"]
+//[Result "0-1"]
+
+start d4 Nf6 # c4 d6 # e4 e5 # Nc3 exd4 # Qxd4 Nc6 # Qd2 g6 # b3 Bg7 # Bb2 
+O-O # Bd3 Ng4 # Nge2 Qh4 # Ng3 Nge5 # O-O f5 # f3 Bh6 # Qd1 f4
+# Nge2 g5 # Nd5 g4 # g3 fxg3 # hxg3 Qh3 # f4 Be6 # Bc2 Rf7 # Kf2 
+Qh2+ # Ke3 Bxd5 # cxd5 Nb4 # Rh1 Rxf4 # Rxh2 Rf3+ # Kd4 Bg7 # a4 
+c5+ # dxc6 bxc6 # Bd3 Nexd3+ # Kc4 d5+ # exd5 cxd5+ # Kb5 Rb8+ 
+# Ka5 Nc6+ 0-1
+
+//[Event "ct"]
+//[Site "JUG"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Tal,M"]
+//[Black "Smyslov,V"]
+//[Result "1-0"]
+
+start e4 c6 # d3 d5 # Nd2 e5 # Ngf3 Nd7 # d4 dxe4 # Nxe4 exd4 # Qxd4 Ngf6 
+# Bg5 Be7 # O-O-O O-O # Nd6 Qa5 # Bc4 b5 # Bd2 Qa6 # Nf5 Bd8 # Qh4
+bxc4 # Qg5 Nh5 # Nh6+ Kh8 # Qxh5 Qxa2 # Bc3 Nf6 # Qxf7 Qa1+ # Kd2 
+Rxf7 # Nxf7+ Kg8 # Rxa1 Kxf7 # Ne5+ Ke6 # Nxc6 Ne4+ # Ke3 Bb6+ 
+# Bd4 1-0
+
+//[Event "ch"]
+//[Site "URS"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Cholmov,R"]
+//[Black "Keres,P"]
+//[Result "1-0"]
+
+start e4 c5 # Nf3 Nc6 # Bb5 Nf6 # e5 Ng4 # Bxc6 dxc6 # O-O g6 # Re1 Bg7 # h3
+Nh6 # Nc3 b6 # d4 cxd4 # Nxd4 c5 # Nc6 Qd7 # Nxe7 Kxe7 # Bxh6 Bxh6 
+# Qf3 Bg7 # Nd5+ Kd8 # Rad1 Bb7 # Qb3 Bc6 # Nxb6 axb6 # Qxf7 Bxe5 
+# Rxd7+ Bxd7 # Rxe5 Kc7 # Re7 Rad8 # a4 g5 # Qd5 Rhe8 # Rxh7 g4 
+# a5 gxh3 # axb6+ Kxb6 # Rxd7 1-0
+
+//[Event "ST ol"]
+//[Site "Marianske Lazne"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Gufeld,E"]
+//[Black "Kavalek,L"]
+//[Result "0-1"]
+
+start e4 e5 # Nf3 Nc6 # Bb5 Bc5 # c3 f5 # d4 fxe4 # Ng5 Bb6 # d5 e3 # Ne4 Qh4 
+# Qf3 Nf6 # Nxf6+ gxf6 # dxc6 exf2+ # Kd1 dxc6 # Be2 Be6 # Qh5+ Qxh5 
+# Bxh5+ Ke7 # b3 Bd5 # Ba3+ Ke6 # Bg4+ f5 # Bh3 Rhg8 # Nd2 Bxg2 
+# Bxg2 Rxg2 # Rf1 Rd8 # Ke2 Rxd2+ # Kxd2 e4 # Bf8 f4 # b4 Rg5 
+# Bc5 Rxc5 # bxc5 Bxc5 # Rab1 f3 # Rb4 Kf5 # Rd4 Bxd4 # cxd4 Kf4 0-1
+
+//[Event "ol"]
+//[Site "Varna"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Spassky,B"]
+//[Black "Evans,L"]
+//[Result "1-0"]
+
+start d4 Nf6 # c4 g6 # Nc3 Bg7 # e4 d6 # f3 c6 # Be3 a6 # Qd2 b5 # O-O-O bxc4
+# Bxc4 O-O # h4 d5 # Bb3 dxe4 # h5 exf3 # hxg6 hxg6 # Bh6 fxg2
+# Rh4 Ng4 # Bxg7 Kxg7 # Qxg2 Nh6 # Nf3 Nf5 # Rh2 Qd6 # Ne5 Nd7 
+# Ne4 Qc7 # Rdh1 Rg8 # Rh7+ Kf8 # Rxf7+ Ke8 # Qxg6 Nxe5 # Rf8+ 1-0
+
+//[Event "ch"]
+//[Site "USA"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Byrne,R"]
+//[Black "Fischer,R"]
+//[Result "0-1"]
+
+start d4 Nf6 # c4 g6 # g3 c6 # Bg2 d5 # cxd5 cxd5 # Nc3 Bg7 # e3 O-O # Nge2
+Nc6 # O-O b6 # b3 Ba6 # Ba3 Re8 # Qd2 e5 # dxe5 Nxe5 # Rfd1 Nd3
+# Qc2 Nxf2 # Kxf2 Ng4+ # Kg1 Nxe3 # Qd2 Nxg2 # Kxg2 d4 # Nxd4 Bb7+ 
+# Kf1 Qd7 0-1
+
+//[Event "cq"]
+//[Site "Riga"]
+//[Date "# ??.??"]
+//[Round "10"]
+//[White "Keres,P"]
+//[Black "Spassky,B"]
+//[Result "0-1"]
+
+start d4 Nf6 # c4 g6 # Nc3 Bg7 # e4 d6 # f4 c5 # d5 O-O # Nf3 e6 # Be2 exd5
+# cxd5 b5 # e5 dxe5 # fxe5 Ng4 # Bf4 Nd7 # e6 fxe6 # dxe6 Rxf4 
+# Qd5 Kh8 # Qxa8 Nb6 # Qxa7 Bxe6 # O-O Ne3 # Rf2 b4 # Nb5 Rf7
+# Qa5 Qb8 # Re1 Bd5 # Bf1 Nxf1 # Rfxf1 Nc4 # Qa6 Rf6 # Qa4 Nxb2 
+# Qc2 Qxb5 # Re7 Nd3 # Qe2 c4 # Re8+ Rf8 # Rxf8+ Bxf8 # Ng5 Bc5+ 
+# Kh1 Qd7 # Qd2 Qe7 # Nf3 Qe3 0-1
+
+//[Event "cs"]
+//[Site "Bled"]
+//[Date "1965"]
+//[Round "10"]
+//[White "Tal,M"]
+//[Black "Larsen,B"]
+//[Result "1-0"]
+
+start e4 c5 # Nf3 Nc6 # d4 cxd4 # Nxd4 e6 # Nc3 d6 # Be3 Nf6 # f4 Be7 # Qf3 
+O-O # O-O-O Qc7 # Ndb5 Qb8 # g4 a6 # Nd4 Nxd4 # Bxd4 b5 # g5 Nd7
+# Bd3 b4 # Nd5 exd5 # exd5 f5 # Rhe1 Rf7 # h4 Bb7 # Bxf5 Rxf5 
+# Rxe7 Ne5 # Qe4 Qf8 # fxe5 Rf4 # Qe3 Rf3 # Qe2 Qxe7 # Qxf3 dxe5 
+# Re1 Rd8 # Rxe5 Qd6 # Qf4 Rf8 # Qe4 b3 # axb3 Rf1+ # Kd2 Qb4+ 
+# c3 Qd6 # Bc5 Qxc5 # Re8+ Rf8 # Qe6+ Kh8 # Qf7 1-0
+
+//[Event "?"]
+//[Site "Monte Carlo"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Botvinnik,M"]
+//[Black "Portisch,L"]
+//[Result "1-0"]
+
+start c4 e5 # Nc3 Nf6 # g3 d5 # cxd5 Nxd5 # Bg2 Be6 # Nf3 Nc6 # O-O Nb6 # d3
+Be7 # a3 a5 # Be3 O-O # Na4 Nxa4 # Qxa4 Bd5 # Rfc1 Re8 # Rc2 Bf8
+# Rac1 Nb8 # Rxc7 Bc6 # R1xc6 bxc6 # Rxf7 h6 # Rb7 Qc8 # Qc4+ Kh8 
+# Nh4 Qxb7 # Ng6+ Kh7 # Be4 Bd6 # Nxe5+ g6 # Bxg6+ Kg7 # Bxh6+ 1-0
+
+//[Event "WCh"]
+//[Site "Moscow"]
+//[Date "# ??.??"]
+//[Round "19"]
+//[White "Spassky,B"]
+//[Black "Petrosian,T"]
+//[Result "1-0"]
+
+start e4 c5 # Nf3 d6 # d4 cxd4 # Nxd4 Nf6 # Nc3 a6 # Bg5 Nbd7 # Bc4 Qa5 # Qd2 
+h6 # Bxf6 Nxf6 # O-O-O e6 # Rhe1 Be7 # f4 O-O # Bb3 Re8 # Kb1 Bf8
+# g4 Nxg4 # Qg2 Nf6 # Rg1 Bd7 # f5 Kh8 # Rdf1 Qd8 # fxe6 fxe6 # e5 
+dxe5 # Ne4 Nh5 # Qg6 exd4 # Ng5 1-0
+
+//[Event "URS-WORLD"]
+//[Site "Belgrade"]
+//[Date "1970"]
+//[Round "?"]
+//[White "Larsen,B"]
+//[Black "Spassky,B"]
+//[Result "0-1"]
+
+start b3 e5 # Bb2 Nc6 # c4 Nf6 # Nf3 e4 # Nd4 Bc5 # Nxc6 dxc6 # e3 Bf5 # Qc2 
+Qe7 # Be2 O-O-O # f4 Ng4 # g3 h5 # h3 h4 # hxg4 hxg3 # Rg1 Rh1
+# Rxh1 g2 # Rf1 Qh4+ # Kd1 gxf1=Q+ 0-1
+
+//[Event "WCh"]
+//[Site "Reykjavik"]
+//[Date "# ??.??"]
+//[Round "6"]
+//[White "Fischer,R"]
+//[Black "Spassky,B"]
+//[Result "1-0"]
+
+start c4 e6 # Nf3 d5 # d4 Nf6 # Nc3 Be7 # Bg5 O-O # e3 h6 # Bh4 b6 # cxd5
+Nxd5 # Bxe7 Qxe7 # Nxd5 exd5 # Rc1 Be6 # Qa4 c5 # Qa3 Rc8 # Bb5 a6 
+# dxc5 bxc5 # O-O Ra7 # Be2 Nd7 # Nd4 Qf8 # Nxe6 fxe6 # e4 d4 # f4
+Qe7 # e5 Rb8 # Bc4 Kh8 # Qh3 Nf8 # b3 a5 # f5 exf5 # Rxf5 Nh7 
+# Rcf1 Qd8 # Qg3 Re7 # h4 Rbb7 # e6 Rbc7 # Qe5 Qe8 # a4 Qd8 # R1f2 
+Qe8 # R2f3 Qd8 # Bd3 Qe8 # Qe4 Nf6 # Rxf6 gxf6 # Rxf6 Kg8 # Bc4 Kh8 
+# Qf4 1-0
+
+//[Event "izt"]
+//[Site "Petropolis"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Bronstein,D"]
+//[Black "Ljubojevic,L"]
+//[Result "1-0"]
+
+start e4 Nf6 # e5 Nd5 # d4 d6 # c4 Nb6 # f4 dxe5 # fxe5 c5 # d5 e6 # Nc3 exd5 
+# cxd5 c4 # Nf3 Bg4 # Qd4 Bxf3 # gxf3 Bb4 # Bxc4 O-O # Rg1 g6 # Bg5
+Qc7 # Bb3 Bc5 # Qf4 Bxg1 # d6 Qc8 # Ke2 Bc5 # Ne4 N8d7 # Rc1 Qc6 
+# Rxc5 Nxc5 # Nf6+ Kh8 # Qh4 Qb5+ # Ke3 h5 # Nxh5 Qxb3+ # axb3 Nd5+ 
+# Kd4 Ne6+ # Kxd5 Nxg5 # Nf6+ Kg7 # Qxg5 Rfc8 # e6 fxe6+ # Kxe6 Rf8 
+# d7 a5 # Ng4 Ra6+ # Ke5 Rf5+ # Qxf5 gxf5 # d8=Q fxg4 # Qd7+ Kh6
+# Qxb7 Rg6 # f4 1-0
+
+//[Event "cf (WCh)"]
+//[Site "Moscow"]
+//[Date "# ??.??"]
+//[Round "2"]
+//[White "Karpov,A"]
+//[Black "Korchnoi,V"]
+//[Result "1-0"]
+
+start e4 c5 # Nf3 d6 # d4 cxd4 # Nxd4 Nf6 # Nc3 g6 # Be3 Bg7 # f3 Nc6 # Qd2 
+O-O # Bc4 Bd7 # h4 Rc8 # Bb3 Ne5 # O-O-O Nc4 # Bxc4 Rxc4 # h5 Nxh5
+# g4 Nf6 # Nde2 Qa5 # Bh6 Bxh6 # Qxh6 Rfc8 # Rd3 R4c5 # g5 Rxg5 
+# Rd5 Rxd5 # Nxd5 Re8 # Nef4 Bc6 # e5 Bxd5 # exf6 exf6 # Qxh7+ Kf8 
+# Qh8+ 1-0
+
+//[Event "ch"]
+//[Site "URS"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Geller,E"]
+//[Black "Karpov,A"]
+//[Result "1-0"]
+
+start e4 e6 # d4 d5 # Nc3 Bb4 # e5 Qd7 # Nf3 b6 # Bd2 Ba6 # Bxa6 Nxa6 # O-O
+Nb8 # Ne2 Be7 # Rc1 b5 # Nf4 h5 # b3 Ba3 # Rb1 a5 # c4 c6 # c5 Bb4 
+# Bc1 a4 # Nd3 Ba5 # bxa4 bxa4 # Qxa4 Qa7 # Bg5 Bc7 # Rxb8+ Qxb8 
+# Qxc6+ Kf8 # Nf4 Ra7 # Nh4 Qe8 # Qxe6 fxe6 # Nhg6+ Qxg6 # Nxg6+ 
+Ke8 # Nxh8 Ra4 # Rd1 Ne7 # Bxe7 Kxe7 # Ng6+ Kf7 # Nf4 Bxe5 # dxe5 
+Rxf4 # Rc1 Ke8 # c6 Kd8 # c7+ Kc8 # g3 Ra4 # Rc6 Rxa2 # Rxe6 g5 
+# Rd6 Rd2 # e6 Kxc7 # e7 1-0
+
+//[Event "EU-TC"]
+//[Site "Skara"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Kasparov,G"]
+//[Black "Pribyl,J"]
+//[Result "1-0"]
+
+start d4 Nf6 # c4 g6 # Nc3 d5 # cxd5 Nxd5 # e4 Nxc3 # bxc3 Bg7 # Nf3 b6 
+# Bb5+ c6 # Bc4 O-O # O-O Ba6 # Bxa6 Nxa6 # Qa4 Qc8 # Bg5 Qb7 # Rfe1
+e6 # Rab1 c5 # d5 Bxc3 # Red1 exd5 # exd5 Bg7 # d6 f6 # d7 fxg5 
+# Qc4+ Kh8 # Nxg5 Bf6 # Ne6 Nc7 # Nxf8 Rxf8 # Rd6 Be7 # d8=Q Bxd8
+# Qc3+ Kg8 # Rd7 Bf6 # Qc4+ Kh8 # Qf4 Qa6 # Qh6 1-0
+
+//[Event "?"]
+//[Site "London"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Seirawan,Y"]
+//[Black "Karpov,A"]
+//[Result "1-0"]
+
+start Nf3 Nf6 # c4 e6 # Nc3 d5 # d4 Be7 # Bg5 h6 # Bh4 O-O # Rc1 b6 # cxd5
+Nxd5 # Nxd5 exd5 # Bxe7 Qxe7 # g3 Re8 # Rc3 Na6 # Qa4 c5 # Re3 Be6 
+# Qxa6 cxd4 # Rb3 Bf5 # Bg2 Bc2 # Nxd4 Bxb3 # Nxb3 Rac8 # Bf3 Rc2 
+# O-O Rxb2 # Rd1 Rd8 # Nd4 Rd7 # Nc6 Qe8 # Nxa7 Rc7 # a4 Qa8
+# Rxd5 Qxa7 # Rd8+ Kh7 # Qd3+ f5 # Qxf5+ g6 # Qe6 1-0
+
+//[Event "ol"]
+//[Site "Luzern"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Korchnoi,V"]
+//[Black "Kasparov,G"]
+//[Result "0-1"]
+
+start d4 Nf6 # c4 g6 # g3 Bg7 # Bg2 c5 # d5 d6 # Nc3 O-O # Nf3 e6 # O-O exd5
+# cxd5 a6 # a4 Re8 # Nd2 Nbd7 # h3 Rb8 # Nc4 Ne5 # Na3 Nh5 # e4 Rf8 
+# Kh2 f5 # f4 b5 # axb5 axb5 # Naxb5 fxe4 # Bxe4 Bd7 # Qe2 Qb6 
+# Na3 Rbe8 # Bd2 Qxb2 # fxe5 Bxe5 # Nc4 Nxg3 # Rxf8+ Rxf8 # Qe1 
+Nxe4+ # Kg2 Qc2 # Nxe5 Rf2+ # Qxf2 Nxf2 # Ra2 Qf5 # Nxd7 Nd3 # Bh6 
+Qxd7 # Ra8+ Kf7 # Rh8 Kf6 # Kf3 Qxh3+ 0-1
+
+//[Event "?"]
+//[Site "Niksic"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Kasparov,G"]
+//[Black "Portisch,L"]
+//[Result "1-0"]
+
+start d4 Nf6 # c4 e6 # Nf3 b6 # Nc3 Bb7 # a3 d5 # cxd5 Nxd5 # e3 Nxc3 # bxc3 
+Be7 # Bb5+ c6 # Bd3 c5 # O-O Nc6 # Bb2 Rc8 # Qe2 O-O # Rad1 Qc7
+# c4 cxd4 # exd4 Na5 # d5 exd5 # cxd5 Bxd5 # Bxh7+ Kxh7 # Rxd5 Kg8 
+# Bxg7 Kxg7 # Ne5 Rfd8 # Qg4+ Kf8 # Qf5 f6 # Nd7+ Rxd7 # Rxd7 Qc5 
+# Qh7 Rc7 # Qh8+ Kf7 # Rd3 Nc4 # Rfd1 Ne5 # Qh7+ Ke6 # Qg8+ Kf5 
+# g4+ Kf4 # Rd4+ Kf3 # Qb3+ 1-0
+
+//[Event "WCh II"]
+//[Site "Moscow"]
+//[Date "# ??.??"]
+//[Round "16"]
+//[White "Karpov,A"]
+//[Black "Kasparov,G"]
+//[Result "0-1"]
+
+start e4 c5 # Nf3 e6 # d4 cxd4 # Nxd4 Nc6 # Nb5 d6 # c4 Nf6 # N1c3 a6 # Na3 
+d5 # cxd5 exd5 # exd5 Nb4 # Be2 Bc5 # O-O O-O # Bf3 Bf5 # Bg5 Re8
+# Qd2 b5 # Rad1 Nd3 # Nab1 h6 # Bh4 b4 # Na4 Bd6 # Bg3 Rc8 # b3 g5 
+# Bxd6 Qxd6 # g3 Nd7 # Bg2 Qf6 # a3 a5 # axb4 axb4 # Qa2 Bg6 # d6 
+g4 # Qd2 Kg7 # f3 Qxd6 # fxg4 Qd4+ # Kh1 Nf6 # Rf4 Ne4 # Qxd3 Nf2+ 
+# Rxf2 Bxd3 # Rfd2 Qe3 # Rxd3 Rc1 # Nb2 Qf2 # Nd2 Rxd1+ # Nxd1 Re1+ 
+0-1
+
+//[Event "?"]
+//[Site "Wijk"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Beliavsky,A"]
+//[Black "Nunn,J"]
+//[Result "0-1"]
+
+start d4 Nf6 # c4 g6 # Nc3 Bg7 # e4 d6 # f3 O-O # Be3 Nbd7 # Qd2 c5 # d5 Ne5
+# h3 Nh5 # Bf2 f5 # exf5 Rxf5 # g4 Rxf3 # gxh5 Qf8 # Ne4 Bh6 # Qc2 
+Qf4 # Ne2 Rxf2 # Nxf2 Nf3+ # Kd1 Qh4 # Nd3 Bf5 # Nec1 Nd2 # hxg6 
+hxg6 # Bg2 Nxc4 # Qf2 Ne3+ # Ke2 Qc4 # Bf3 Rf8 # Rg1 Nc2 # Kd1 Bxd3 
+0-1
+
+//[Event "WCh III"]
+//[Site "Leningrad"]
+//[Date "# ??.??"]
+//[Round "22"]
+//[White "Kasparov,G"]
+//[Black "Karpov,A"]
+//[Result "1-0"]
+
+start d4 Nf6 # c4 e6 # Nf3 d5 # Nc3 Be7 # Bg5 h6 # Bxf6 Bxf6 # e3 O-O # Rc1
+c6 # Bd3 Nd7 # O-O dxc4 # Bxc4 e5 # h3 exd4 # exd4 Nb6 # Bb3 Bf5
+# Re1 a5 # a3 Re8 # Rxe8+ Qxe8 # Qd2 Nd7 # Qf4 Bg6 # h4 Qd8 # Na4 
+h5 # Re1 b5 # Nc3 Qb8 # Qe3 b4 # Ne4 bxa3 # Nxf6+ Nxf6 # bxa3 Nd5 
+# Bxd5 cxd5 # Ne5 Qd8 # Qf3 Ra6 # Rc1 Kh7 # Qh3 Rb6 # Rc8 Qd6 
+# Qg3 a4 # Ra8 Qe6 # Rxa4 Qf5 # Ra7 Rb1+ # Kh2 Rc1 # Rb7 Rc2 # f3 
+Rd2 # Nd7 Rxd4 # Nf8+ Kh6 # Rb4 Rc4 # Rxc4 dxc4 # Qd6 c3 # Qd4 1-0
+
+//[Event "?"]
+//[Site "Reykjavik"]
+//[Date "# ??.??"]
+//[Round "?"]
+//[White "Tal,M"]
+//[Black "Hjartarson,J"]
+//[Result "1-0"]
+
+start e4 e5 # Nf3 Nc6 # Bb5 a6 # Ba4 Nf6 # O-O Be7 # Re1 b5 # Bb3 O-O # c3 d6
+# h3 Na5 # Bc2 c5 # d4 Qc7 # Nbd2 Bd7 # Nf1 cxd4 # cxd4 Rac8 # Ne3 
+Nc6 # d5 Nb4 # Bb1 a5 # a3 Na6 # b4 g6 # Bd2 axb4 # axb4 Qb7 # Bd3 
+Nc7 # Nc2 Nh5 # Be3 Ra8 # Qd2 Rxa1 # Nxa1 f5 # Bh6 Ng7 # Nb3 f4 
+# Na5 Qb6 # Rc1 Ra8 # Qc2 Nce8 # Qb3 Bf6 # Nc6 Nh5 # Qb2 Bg7 
+# Bxg7 Kxg7 # Rc5 Qa6 # Rxb5 Nc7 # Rb8 Qxd3 # Ncxe5 Qd1+ # Kh2 Ra1 
+# Ng4+ Kf7 # Nh6+ Ke7 # Ng8+ 1-0
+

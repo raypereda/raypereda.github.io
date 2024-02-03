@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Patterns in Chess | Ray Pereda</title>
+<meta name="keywords" content="patterns">
+<meta name="description" content="Yeah Buddy!!! Happy Thanksgiving!!!
+Let&rsquo;s find the repeated sequences of moves in chess matches between chess masters.
+The source of the chess moves is here: https://github.com/rozim/ChessData/tree/master/ChessOk.com
+Stat Type Number # of matches 469,825 # of moves 19,031,726 runtime of analysis 62 minutes 23 seconds Portable Game Notation (PGN) is a plain text format for recording chess games. I&rsquo;m running on a 2013 MacBook with Intel i5 2.6Ghz CPU. I will re-run analysis on a more current Lenovo X1 with Intel i7 1.">
+<meta name="author" content="Ray Pereda">
+<link rel="canonical" href="https://RayPereda.com/blog/patterns-in-chess/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://RayPereda.com/red-R-favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://RayPereda.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://RayPereda.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://RayPereda.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://RayPereda.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Patterns in Chess" />
+<meta property="og:description" content="Yeah Buddy!!! Happy Thanksgiving!!!
+Let&rsquo;s find the repeated sequences of moves in chess matches between chess masters.
+The source of the chess moves is here: https://github.com/rozim/ChessData/tree/master/ChessOk.com
+Stat Type Number # of matches 469,825 # of moves 19,031,726 runtime of analysis 62 minutes 23 seconds Portable Game Notation (PGN) is a plain text format for recording chess games. I&rsquo;m running on a 2013 MacBook with Intel i5 2.6Ghz CPU. I will re-run analysis on a more current Lenovo X1 with Intel i7 1." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://RayPereda.com/blog/patterns-in-chess/" /><meta property="og:image" content="https://RayPereda.com/img/ray2018.jpg"/><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2018-11-22T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-11-22T00:00:00+00:00" /><meta property="og:site_name" content="Ray Pereda" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://RayPereda.com/img/ray2018.jpg"/>
+
+<meta name="twitter:title" content="Patterns in Chess"/>
+<meta name="twitter:description" content="Yeah Buddy!!! Happy Thanksgiving!!!
+Let&rsquo;s find the repeated sequences of moves in chess matches between chess masters.
+The source of the chess moves is here: https://github.com/rozim/ChessData/tree/master/ChessOk.com
+Stat Type Number # of matches 469,825 # of moves 19,031,726 runtime of analysis 62 minutes 23 seconds Portable Game Notation (PGN) is a plain text format for recording chess games. I&rsquo;m running on a 2013 MacBook with Intel i5 2.6Ghz CPU. I will re-run analysis on a more current Lenovo X1 with Intel i7 1."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Patterns Blog",
+      "item": "https://RayPereda.com/blog/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Patterns in Chess",
+      "item": "https://RayPereda.com/blog/patterns-in-chess/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Patterns in Chess",
+  "name": "Patterns in Chess",
+  "description": "Yeah Buddy!!! Happy Thanksgiving!!!\nLet\u0026rsquo;s find the repeated sequences of moves in chess matches between chess masters.\nThe source of the chess moves is here: https://github.com/rozim/ChessData/tree/master/ChessOk.com\nStat Type Number # of matches 469,825 # of moves 19,031,726 runtime of analysis 62 minutes 23 seconds Portable Game Notation (PGN) is a plain text format for recording chess games. I\u0026rsquo;m running on a 2013 MacBook with Intel i5 2.6Ghz CPU. I will re-run analysis on a more current Lenovo X1 with Intel i7 1.",
+  "keywords": [
+    "patterns"
+  ],
+  "articleBody": " Yeah Buddy!!! Happy Thanksgiving!!!\nLet’s find the repeated sequences of moves in chess matches between chess masters.\nThe source of the chess moves is here: https://github.com/rozim/ChessData/tree/master/ChessOk.com\nStat Type Number # of matches 469,825 # of moves 19,031,726 runtime of analysis 62 minutes 23 seconds Portable Game Notation (PGN) is a plain text format for recording chess games. I’m running on a 2013 MacBook with Intel i5 2.6Ghz CPU. I will re-run analysis on a more current Lenovo X1 with Intel i7 1.8Ghz CPU.\nHere is an example game: 1.d4 d5 2.Nf3 Nf6 3.c4 e6 4.e3 c6 5.Nbd2 g6 6.b3 Qa5 7.Qc2 Bg7 8.Bd3 O-O 9.O-O c5 10.dxc5 Nc6 11.a3 dxc4 12.Qxc4 Nd7 13.Rb1 Nde5 14.Qc2 Nxd3 15.Qxd3 Qxc5 16.b4 Qe7 17.Bb2 a6 18.Bxg7 Kxg7 19.Nc4 f6 20.Nb6 Rb8 21.Qc3 e5 22.Nd2 Be6 23.Ne4 Bf5 24.Rbd1 Rbd8 25.Nc5 Qc7 26.Nca4 Bg4 27.f3 Be6 28.Nc5 Rfe8 29.Rxd8 Nxd8 30.Nca4 Qxc3 31.Nxc3 Nc6 32.Ne4 Re7 33.Nc5 Kf7 34.Rc1 Nb8 35.Rd1 Nc6 36.Rd6 Na7 37.a4 Nc8 38.Rxe6 Rxe6 39.Nxc8 Rc6 40.Nxb7 Rc1+ 41.Kf2 Rc2+ 42.Kg3 Ke8 43.Nb6 f5 44.a5 Rb2 45.Nd5 Kd7 46.Nc5+ Kc6 47.e4 fxe4 48.fxe4 Kb5 49.h4 Rc2 50.Nd7 h6 51.Nxe5 g5 52.hxg5 hxg5 53.Nf3 Rc8 54.Nxg5 Rf8 55.Ne6 Rg8+ 56.Kf3 Kc4 57.g4 Rg6 58.Nec7 Kd4 59.Kf4 Rg7 60.Ne6+ 1-0\nTo allow the moves to reveal more patterns, I replace move numbers with a generic # symbol. This way we can see patterns between move sequences with different numbering. The first number one is replaced with the word start. This identifies this as part of a chess opening. I may reconsider this, and replace it with #.\nstart d4 d5 # Nf3 Nf6 # c4 e6 # e3 c6 # Nbd2 g6 # b3 Qa5 # Qc2 Bg7 # Bd3 O-O # O-O c5 # dxc5 Nc6 # a3 dxc4 # Qxc4 Nd7 # Rb1 Nde5 # Qc2 Nxd3 # Qxd3 Qxc5 # b4 Qe7 # Bb2 a6 # Bxg7 Kxg7 # Nc4 f6 # Nb6 Rb8 # Qc3 e5 # Nd2 Be6 # Ne4 Bf5 # Rbd1 Rbd8 # Nc5 Qc7 # Nca4 Bg4 # f3 Be6 # Nc5 Rfe8 # Rxd8 Nxd8 # Nca4 Qxc3 # Nxc3 Nc6 # Ne4 Re7 # Nc5 Kf7 # Rc1 Nb8 # Rd1 Nc6 # Rd6 Na7 # a4 Nc8 # Rxe6 Rxe6 # Nxc8 Rc6 # Nxb7 Rc1+ # Kf2 Rc2+ # Kg3 Ke8 # Nb6 f5 # a5 Rb2 # Nd5 Kd7 # Nc5+ Kc6 # e4 fxe4 # fxe4 Kb5 # h4 Rc2 # Nd7 h6 # Nxe5 g5 # hxg5 hxg5 # Nf3 Rc8 # Nxg5 Rf8 # Ne6 Rg8+ # Kf3 Kc4 # g4 Rg6 # Nec7 Kd4 # Kf4 Rg7 # Ne6+ 1-0\nNow I’m ready to combine all the games into a text file and run analysis tools on it. The resulting file is 342M bytes. I removed anything that was not a chess move. That reduced the file to 192M bytes. It has 4,499,168 lines of text. Here’s a sample of the input file.\nstart d4 d5 # Nf3 Nf6 # c4 e6 # e3 c6 # Nbd2 g6 # b3 Qa5 # Qc2 Bg7 # Bd3 O-O # O-O c5 # dxc5 Nc6 # a3 dxc4 # Qxc4 Nd7 # Rb1 Nde5 # Qc2 Nxd3 # Qxd3 Qxc5 # b4 Qe7 # Bb2 a6 # Bxg7 Kxg7 # Nc4 f6 # Nb6 Rb8 # Qc3 e5 # Nd2 Be6 # Ne4 Bf5 # Rbd1 Rbd8 # Nc5 Qc7 # Nca4 Bg4 # f3 Be6 # Nc5 Rfe8 # Rxd8 Nxd8 # Nca4 Qxc3 # Nxc3 Nc6 # Ne4 Re7 # Nc5 Kf7 # Rc1 Nb8 # Rd1 Nc6 # Rd6 Na7 # a4 Nc8 # Rxe6 Rxe6 # Nxc8 Rc6 # Nxb7 Rc1+ # Kf2 Rc2+ # Kg3 Ke8 # Nb6 f5 # a5 Rb2 # Nd5 Kd7 # Nc5+ Kc6 # e4 fxe4 # fxe4 Kb5 # h4 Rc2 # Nd7 h6 # Nxe5 g5 # hxg5 hxg5 # Nf3 Rc8 # Nxg5 Rf8 # Ne6 Rg8+ # Kf3 Kc4 # g4 Rg6 # Nec7 Kd4 # Kf4 Rg7 # Ne6+ 1-0 start d4 d5 # c4 e6 # Nf3 Nf6 # Bg5 h6 # Bxf6 Qxf6 # Nc3 c6 # e3 Nd7 # Bd3 g6 # O-O dxc4 # Bxc4 Bg7 # Rc1 O-O # Ne4 Qe7 # Bb3 Rd8 # Qc2 Rb8 # Rfd1 Nf8 # Ne5 Bd7 # f4 Be8 # Qc5 Qxc5 # dxc5 Bxe5 # fxe5 Nd7 # Nf6+ Kf8 # Nxd7+ Rxd7 # Rd6 Rc7 # Bc4 b6 # b3 Ke7 # Kf2 bxc5 # a4 Rd8 # Rcd1 Rdd7 # Rxd7+ Rxd7 # Rxd7+ Bxd7 # h4 f6 # Kf3 fxe5 # e4 a5 # g4 Be8 # g5 hxg5 .... From here out, we focus on the output of the patterns finding programs.\nThe most popular single move is O-O, castle queenside. That move is made 752,998. Because each side can make this move, the max number of times that move is 469,825 times 2. That means that the probability of O-O is played in a game is 752,998 / (469,825 x 2) = 0.80136008088.\nLet’s look for the most common quick O-O. That means that the castle happens early in the move sequence. This sequence is played 8431 in the data.\n1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O The Ruy Lopez also called the Spanish Opening or Spanish Game, is a chess opening characterised by the moves:\n1. e4 e5 2. Nf3 Nc6 3. Bb5 What are the common variations that follow these opening moves in the Spanish Game? The common move is the Sicilian Defence with the Najdorf Variation. For 100 years, the Sicilian was criticized as weak. In the last 25 years, this game has been favored by Kasparov and became more popular.\nLater, Garry Kasparov also adopted the 5…a6 move order, but with the idea of playing …e6 rather than …e5. Kasparov’s point is that the immediate 5…e6 allows 6.g4, which is White’s most dangerous line against the Scheveningen. By playing 5…a6 first, Black temporarily prevents White’s g4 thrust and waits to see what White plays instead. Source: https://en.wikipedia.org/wiki/Sicilian_Defence#Najdorf_Variation\nIn the analysis, we see this pretty pattern.\n12444 start e4 c5# Nf3 d6# d4 cxd4# Nxd4 Nf6# Nc3 a6# That means that this opening is played 12,444 times. We can translate that to this more standard PGN notation.\n1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 Below is a visualization of the Sicilian Defence - Najdorf Variation:\nThere is a gold mine of patterns in the patterns uncovered. Here link to the raw output file of the analysis of the top 10 patterns of each length of repeated phrases. The longest phrases are first. It looks like there is some dirty data with repeated games. I did not clean up all the data. Patterns results are very robust. We are only considering patterns that happen thousands of times or more. The duplications are at most 2 or 3 times.\nSummarizing the games of chess masters into an easy and quick to remember is fun. As an amateur chess player, we need to be efficient learners because we don’t have as much time to play as masters with major commitments of time.\n",
+  "wordCount" : "1208",
+  "inLanguage": "en",
+  "datePublished": "2018-11-22T00:00:00Z",
+  "dateModified": "2018-11-22T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Ray Pereda"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://RayPereda.com/blog/patterns-in-chess/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Ray Pereda",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://RayPereda.com/red-R-favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://RayPereda.com/" accesskey="h" title="Home (Alt + H)">
+                <img src="https://RayPereda.com/apple-touch-icon.png" alt="" aria-label="logo"
+                    height="35">Home</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://RayPereda.com/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://RayPereda.com/">Home</a>&nbsp;»&nbsp;<a href="https://RayPereda.com/blog/">Patterns Blog</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Patterns in Chess
+    </h1>
+    <div class="post-meta"><span title='2018-11-22 00:00:00 +0000 UTC'>November 22, 2018</span>&nbsp;·&nbsp;1208 words&nbsp;·&nbsp;Ray Pereda
+
+</div>
+  </header> 
+
+  <div class="post-content"><figure>
+    <img loading="lazy" src="/blog/220px-Carlsen_Magnus_%2830238051906%29.jpg"/> 
+</figure>
+
+<p>Yeah Buddy!!! Happy Thanksgiving!!!</p>
+<p>Let&rsquo;s find the repeated sequences of moves in chess matches between chess masters.</p>
+<p>The source of the chess moves is here:
+<a href="https://github.com/rozim/ChessData/tree/master/ChessOk.com">https://github.com/rozim/ChessData/tree/master/ChessOk.com</a></p>
+<table>
+<thead>
+<tr>
+<th>Stat Type</th>
+<th>Number</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td># of matches</td>
+<td>469,825</td>
+</tr>
+<tr>
+<td># of moves</td>
+<td>19,031,726</td>
+</tr>
+<tr>
+<td>runtime of analysis</td>
+<td>62 minutes 23 seconds</td>
+</tr>
+</tbody>
+</table>
+<p>Portable Game Notation (PGN) is a plain text format for recording chess games.
+I&rsquo;m running on a 2013 MacBook with Intel i5 2.6Ghz CPU.
+I will re-run analysis on a more current Lenovo X1 with Intel i7 1.8Ghz CPU.</p>
+<p>Here is an example game:
+1.d4 d5 2.Nf3 Nf6 3.c4 e6 4.e3 c6 5.Nbd2 g6 6.b3 Qa5 7.Qc2 Bg7
+8.Bd3 O-O 9.O-O c5 10.dxc5 Nc6 11.a3 dxc4 12.Qxc4 Nd7 13.Rb1
+Nde5 14.Qc2 Nxd3 15.Qxd3 Qxc5 16.b4 Qe7 17.Bb2 a6 18.Bxg7 Kxg7
+19.Nc4 f6 20.Nb6 Rb8 21.Qc3 e5 22.Nd2 Be6 23.Ne4 Bf5 24.Rbd1
+Rbd8 25.Nc5 Qc7 26.Nca4 Bg4 27.f3 Be6 28.Nc5 Rfe8 29.Rxd8 Nxd8
+30.Nca4 Qxc3 31.Nxc3 Nc6 32.Ne4 Re7 33.Nc5 Kf7 34.Rc1 Nb8 35.Rd1
+Nc6 36.Rd6 Na7 37.a4 Nc8 38.Rxe6 Rxe6 39.Nxc8 Rc6 40.Nxb7 Rc1+
+41.Kf2 Rc2+ 42.Kg3 Ke8 43.Nb6 f5 44.a5 Rb2 45.Nd5 Kd7 46.Nc5+
+Kc6 47.e4 fxe4 48.fxe4 Kb5 49.h4 Rc2 50.Nd7 h6 51.Nxe5 g5 52.hxg5
+hxg5 53.Nf3 Rc8 54.Nxg5 Rf8 55.Ne6 Rg8+ 56.Kf3 Kc4 57.g4 Rg6
+58.Nec7 Kd4 59.Kf4 Rg7 60.Ne6+ 1-0</p>
+<p>To allow the moves to reveal more patterns, I replace move numbers
+with a generic # symbol. This way we can see patterns between
+move sequences with different numbering. The first number one is
+replaced with the word start. This identifies this as part of a chess opening. I may reconsider this, and replace it with #.</p>
+<p>start d4 d5 # Nf3 Nf6 # c4 e6 # e3 c6 # Nbd2 g6 # b3 Qa5 # Qc2 Bg7
+# Bd3 O-O # O-O c5 # dxc5 Nc6 # a3 dxc4 # Qxc4 Nd7 # Rb1
+Nde5 # Qc2 Nxd3 # Qxd3 Qxc5 # b4 Qe7 # Bb2 a6 # Bxg7 Kxg7
+# Nc4 f6 # Nb6 Rb8 # Qc3 e5 # Nd2 Be6 # Ne4 Bf5 # Rbd1
+Rbd8 # Nc5 Qc7 # Nca4 Bg4 # f3 Be6 # Nc5 Rfe8 # Rxd8 Nxd8
+# Nca4 Qxc3 # Nxc3 Nc6 # Ne4 Re7 # Nc5 Kf7 # Rc1 Nb8 # Rd1
+Nc6 # Rd6 Na7 # a4 Nc8 # Rxe6 Rxe6 # Nxc8 Rc6 # Nxb7 Rc1+
+# Kf2 Rc2+ # Kg3 Ke8 # Nb6 f5 # a5 Rb2 # Nd5 Kd7 # Nc5+
+Kc6 # e4 fxe4 # fxe4 Kb5 # h4 Rc2 # Nd7 h6 # Nxe5 g5 # hxg5
+hxg5 # Nf3 Rc8 # Nxg5 Rf8 # Ne6 Rg8+ # Kf3 Kc4 # g4 Rg6
+# Nec7 Kd4 # Kf4 Rg7 # Ne6+ 1-0</p>
+<p>Now I&rsquo;m ready to combine all the games into a text file and run analysis tools on
+it. The resulting file is 342M bytes. I removed anything that was not
+a chess move. That reduced the file to 192M bytes. It has 4,499,168 lines of text.
+Here&rsquo;s a sample of the input file.</p>
+<pre tabindex="0"><code>
+start d4 d5 # Nf3 Nf6 # c4 e6 # e3 c6 # Nbd2 g6 # b3 Qa5 # Qc2 Bg7
+# Bd3 O-O # O-O c5 # dxc5 Nc6 # a3 dxc4 # Qxc4 Nd7 # Rb1
+Nde5 # Qc2 Nxd3 # Qxd3 Qxc5 # b4 Qe7 # Bb2 a6 # Bxg7 Kxg7
+# Nc4 f6 # Nb6 Rb8 # Qc3 e5 # Nd2 Be6 # Ne4 Bf5 # Rbd1
+Rbd8 # Nc5 Qc7 # Nca4 Bg4 # f3 Be6 # Nc5 Rfe8 # Rxd8 Nxd8
+# Nca4 Qxc3 # Nxc3 Nc6 # Ne4 Re7 # Nc5 Kf7 # Rc1 Nb8 # Rd1
+Nc6 # Rd6 Na7 # a4 Nc8 # Rxe6 Rxe6 # Nxc8 Rc6 # Nxb7 Rc1+
+# Kf2 Rc2+ # Kg3 Ke8 # Nb6 f5 # a5 Rb2 # Nd5 Kd7 # Nc5+
+Kc6 # e4 fxe4 # fxe4 Kb5 # h4 Rc2 # Nd7 h6 # Nxe5 g5 # hxg5
+hxg5 # Nf3 Rc8 # Nxg5 Rf8 # Ne6 Rg8+ # Kf3 Kc4 # g4 Rg6
+# Nec7 Kd4 # Kf4 Rg7 # Ne6+ 1-0
+
+
+start d4 d5 # c4 e6 # Nf3 Nf6 # Bg5 h6 # Bxf6 Qxf6 # Nc3 c6 # e3
+Nd7 # Bd3 g6 # O-O dxc4 # Bxc4 Bg7 # Rc1 O-O # Ne4 Qe7 # Bb3
+Rd8 # Qc2 Rb8 # Rfd1 Nf8 # Ne5 Bd7 # f4 Be8 # Qc5 Qxc5 # dxc5
+Bxe5 # fxe5 Nd7 # Nf6+ Kf8 # Nxd7+ Rxd7 # Rd6 Rc7 # Bc4
+b6 # b3 Ke7 # Kf2 bxc5 # a4 Rd8 # Rcd1 Rdd7 # Rxd7+ Rxd7
+# Rxd7+ Bxd7 # h4 f6 # Kf3 fxe5 # e4 a5 # g4 Be8 # g5 hxg5
+....
+</code></pre><p>From here out, we focus on the output of the patterns finding
+programs.</p>
+<p>The most popular single move is O-O, castle queenside. That move is
+made 752,998. Because each side can make this move, the max number of times that move is 469,825 times 2. That means that the probability of O-O is played in a game is 752,998 / (469,825 x 2) =
+0.80136008088.</p>
+<p>Let&rsquo;s look for the most common quick O-O. That means that the castle happens early in the move sequence. This sequence is played 8431
+in the data.</p>
+<pre tabindex="0"><code>1. e4 e5 
+2. Nf3 Nc6 
+3. Bb5 a6 
+4. Ba4 Nf6 
+5. O-O
+</code></pre><p>The Ruy Lopez also called the Spanish Opening or Spanish Game, is a chess opening
+characterised by the moves:</p>
+<pre tabindex="0"><code>1. e4 e5
+2. Nf3 Nc6
+3. Bb5
+</code></pre><p>What are the common variations that follow these opening moves in the
+Spanish Game? The common move is the Sicilian Defence with the Najdorf Variation.
+For 100 years, the Sicilian was criticized as weak. In the last 25 years, this
+game has been favored by Kasparov and became more popular.</p>
+<blockquote>
+<p>Later, Garry Kasparov also adopted the 5&hellip;a6 move order, but with the idea of playing
+&hellip;e6 rather than &hellip;e5. Kasparov&rsquo;s point is that the immediate 5&hellip;e6
+allows 6.g4, which is White&rsquo;s most dangerous line against the Scheveningen.
+By playing 5&hellip;a6 first, Black temporarily prevents White&rsquo;s g4 thrust and
+waits to see what White plays instead.
+Source: <a href="https://en.wikipedia.org/wiki/Sicilian_Defence#Najdorf_Variation">https://en.wikipedia.org/wiki/Sicilian_Defence#Najdorf_Variation</a></p>
+</blockquote>
+<p>In the analysis, we see this pretty pattern.</p>
+<pre tabindex="0"><code>12444    start e4 c5# Nf3 d6# d4 cxd4# Nxd4 Nf6# Nc3 a6#
+</code></pre><p>That means that this opening is played 12,444 times. We can translate that
+to this more standard PGN notation.</p>
+<pre tabindex="0"><code>1.e4 c5 
+2.Nf3 d6 
+3.d4 cxd4 
+4.Nxd4 Nf6 
+5.Nc3 a6
+</code></pre><p>Below is a visualization of the Sicilian Defence - Najdorf Variation:</p>
+<figure>
+    <img loading="lazy" src="/blog/Sicilian_Defence-Najdorf_Variation2.gif"/> 
+</figure>
+
+<p>There is a gold mine of patterns in the patterns uncovered.
+Here link to the <a href="/blog/chessok-com-all-RESULTS2.txt">raw output</a>
+file of the analysis of the top 10 patterns of
+each length of repeated phrases. The longest phrases are first.
+It looks like there is some dirty data with repeated games. I did not clean up
+all the data. Patterns results are very robust. We are only considering
+patterns that happen thousands of times or more. The duplications are at most
+2 or 3 times.</p>
+<p>Summarizing the games of chess masters into an easy and quick to remember is fun.
+As an amateur chess player, we need to be efficient learners because we don&rsquo;t
+have as much time to play as masters with major commitments of time.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://RayPereda.com/tags/patterns/">patterns</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://RayPereda.com/blog/patterns-in-shark-baby-song/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Patterns in Shark Baby Song</span>
+  </a>
+  <a class="next" href="https://RayPereda.com/blog/patterns-in-legal-agreements/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Patterns in Legal Agreements</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Patterns in Chess on x"
+            href="https://x.com/intent/tweet/?text=Patterns%20in%20Chess&amp;url=https%3a%2f%2fRayPereda.com%2fblog%2fpatterns-in-chess%2f&amp;hashtags=patterns">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2024 <a href="https://RayPereda.com/">Ray Pereda</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Ray Pereda</title>
+    <link>https://RayPereda.com/categories/</link>
+    <description>Recent content in Categories on Ray Pereda</description>
+    <image>
+      <title>Ray Pereda</title>
+      <url>https://RayPereda.com/img/ray2018.jpg</url>
+      <link>https://RayPereda.com/img/ray2018.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="https://RayPereda.com/categories/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
