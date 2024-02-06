@@ -1,0 +1,155 @@
+---
+title: "Patterns in The Book of Mormom""
+date: 2024-02-05
+tags: ["patterns"]
+weight: 1
+---
+
+{{< figure src="/blog/The_Book_of_Mormon.jpg">}}
+
+Let's find the repeated phrases in the Book of Mormom.
+
+The text is available [here](https://www.gutenberg.org/cache/epub/17/pg17.txt). Here is [cleaned text](The_Book_of_Mormon_cleaned.txt) with Gutenberg project text removed. You can cut & paste it into [MegaPatterns](https://www.MegaPatterns.com).
+
+First let's look at the longest repeats, it is repeated once.
+It is about the kids that are small enough to carry in your arms.
+
+```
+Thus saith the Lord God: Behold, I will lift up mine hand to the Gentiles, and set up my standard to the people; and they shall bring thy sons in their arms, and thy daughters shall be carried upon their shoulders.
+```
+
+Now let's look at a short length phrase with 1031 repeats:
+```
+"And it came to pass..."
+```
+
+Four times this is repeated:
+```
+the God of Abraham, and the God of Isaac, and the God of Jacob
+```
+Grok, from the X platform, explains:
+
+"According to the Book of Mormon, these three names refer to the God of the Old Testament, who is also known as Jehovah or Yahweh. The God of Abraham refers to the covenant God made with Abraham, promising to make him the father of many nations. The God of Isaac refers to the covenant God made with Isaac, son of Abraham, promising to continue the blessings of Abraham through Isaac and his descendants. The God of Jacob refers to the covenant God made with Jacob, son of Isaac, also known as Israel, promising to make his descendants a great nation."
+
+
+Let's look a proper nouns and capitalized words.
+The most common proper noun is, unsuprisely, God, with 1662 occurrences. .
+Nephi is another proper noun  which occurs 1038 times in BoM.
+
+Let's look at the top 40 patterns of each length that include the word Nephi.
+```
+Count   Phrase
+137     the people of Nephi
+88      I, Nephi,
+49      over the people of Nephi
+48      . 4 Nephi 1 :
+46      the people of Nephi,
+41      the people of Nephi.
+26      over the people of Nephi.
+26      it came to pass that I, Nephi,
+21      And it came to pass that I, Nephi,
+12      it came to pass that I, Nephi, did
+9       And it came to pass that I, Nephi, did
+5       it came to pass that after I, Nephi, had
+4       And it came to pass that I, Nephi, beheld
+3       And it came to pass that I, Nephi, said
+3       And it came to pass that the armies of the Nephites
+45      year of the reign of the judges over the people of Nephi
+2       : 16 And it came to pass that I, Nephi,
+2       : 23 And it came to pass that I, Nephi,
+2       : 7 And it came to pass that I, Nephi,
+2       And it came to pass that I, Nephi, beheld that
+2       And it came to pass that I, Nephi, beheld the
+24      year of the reign of the judges over the people of Nephi.
+14      year of the reign of the judges over the people of Nephi,
+5       first year of the reign of the judges over the people of Nephi
+5       sixth year of the reign of the judges over the people of Nephi
+5       year of the reign of the judges over the people of Nephi ;
+4       ninth year of the reign of the judges over the people of Nephi
+3       seventh year of the reign of the judges over the people of Nephi
+2       : 22 And it came to pass that I, Nephi, did
+2       And it came to pass that after I, Nephi, had been
+4       and first year of the reign of the judges over the people of Nephi
+4       and sixth year of the reign of the judges over the people of Nephi
+4       year of the reign of the judges over the people of Nephi, that
+3       and fifth year of the reign of the judges over the people of Nephi
+3       ninth year of the reign of the judges over the people of Nephi.
+3       sixth year of the reign of the judges over the people of Nephi,
+3       the nineteenth year of the reign of the judges over the people of Nephi
+3       the tenth year of the reign of the judges over the people of Nephi
+3       year of the reign of the judges over the people of Nephi, there
+3       year of the reign of the judges over the people of Nephi ; and
+2       first year of the reign of the judges over the people of Nephi,
+2       the eightieth year of the reign of the judges over the people of Nephi
+2       the ninth year of the reign of the judges over the people of Nephi
+5       year of the reign of the judges over the people of Nephi. Alma Chapter
+3       : 1 And now it came to pass that after I, Nephi, had
+3       and eighth year of the reign of the judges over the people of Nephi.
+2       and first year of the reign of the judges over the people of Nephi.
+2       and ninth year of the reign of the judges over the people of Nephi.
+2       and seventh year of the reign of the judges over the people of Nephi.
+2       and sixth year of the reign of the judges over the people of Nephi,
+2       and sixth year of the reign of the judges over the people of Nephi.
+2       the fourteenth year of the reign of the judges over the people of Nephi.
+2       the people of Nephi began to prosper again in the land, and began to
+2       year of the reign of the judges over the people of Nephi, that Alma
+2       year of the reign of the judges over the people of Nephi, there were
+2       year of the reign of the judges over the people of Nephi. 16 :
+2       year of the reign of the judges over the people of Nephi. 50 :
+2       year of the reign of the judges over the people of Nephi. 52 :
+2       year of the reign of the judges over the people of Nephi. And thus
+2       year of the reign of the judges over the people of Nephi. Helaman Chapter
+2       year of the reign of the judges over the people of Nephi ; and thus
+2       the nineteenth year of the reign of the judges over the people of Nephi, that
+2       the thirty and first year of the reign of the judges over the people of Nephi
+2       the twenty and fifth year of the reign of the judges over the people of Nephi
+2       the twenty and sixth year of the reign of the judges over the people of Nephi
+2       : 1 And now it came to pass that after I, Nephi, had made an end of
+```
+
+The recurring word I see in these repeated phrases is judges.
+```
+Count  Phrase
+45     year of the reign of the judges over the people of Nephi
+100    the reign of the judges
+141    judges
+```
+
+
+Here is the first and last paragraphs that mention the word judges.
+
+First paragraph:
+```
+29:11 Therefore I will be your king the remainder of my days;
+nevertheless, let us appoint judges, to judge this people according to
+our law; and we will newly arrange the affairs of this people, for we
+will appoint wise men to be judges, that will judge this people
+according to the commandments of God.
+```
+
+Last paragraph:
+```
+27:27 And know ye that ye shall be judges of this people, according to
+the judgment which I shall give unto you, which shall be just.
+Therefore, what manner of men ought ye to be? Verily I say unto you,
+even as I am.
+```
+
+Imagine the young Mormon people establishing a successful community in 1823. A 17-year old
+Joseph Smith was focused on creating laws that support the community. This reminds
+me of a quote from Socrates:
+```
+Those who are too smart to engage in politics are punished by being governed by those who are dumber
+```
+I believe that BoM spirit would approve of that message as well.
+
+The BoM is about setting up a community (nation?) of people with a shared values from the people from
+Israel. When I think of trouble with national politics, a constitution that is not resolving problems quickly, and a border that is out of control, I see politics as an essential topic for all citizen, young and old, powerful and meek, everyone.
+
+#### End Notes:
+
+Big thanks to [Joshua Lisec](https://lisecghostwriting.com/) for giving me the nudge to look at repeated phrases in BoM.
+
+MegaPatterns counts all of the repeated phrases. For sake of studying human prose, limit the results on the website to only the top 40 repeated phrases for each length. The repeating short phrases are typically plentiful; for the longer phrases, there are few repeats. I don't show a count of the length of the phrase, but my add if helpful.
+
+Here's a [Google sheet](https://docs.google.com/spreadsheets/d/1_vk4S9S1Lsg28WrZmGTT-Vn0wyEgW7ZEohNe5HF_wOQ/edit?usp=sharing) for tinkering with the repeats. I recommend tinkering with filtering the rows with filters.
