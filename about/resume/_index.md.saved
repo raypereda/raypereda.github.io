@@ -1,0 +1,196 @@
+---
+title: ""
+weight: 99
+---
+
+# Ray Pereda
+
+## Software Engineer & Tech Lead
+
+#### Notable Technical Accomplishments
+
+* At Genesis Research, replaced low-performing NLP AI models with open-source models with state-of-the-art accuracy on the same tasks
+* At a Fortune 100 Company, led my department in performing essentials tasks as the company layoffs reduced 3K IT employees to 200 employee with no layoffs in my department
+* At Molina Healthcare, ran a DevOps department that automated the development and deployments of all of the company's 1200 apps; migrated the private data center to the Microsoft cloud
+* For the US Air Force, developed critical RADAR systems for stealth vehicles that played a key role in the capture of Osama bin Laden <!-- * At Area 5&#8302;1, developed critical RADAR systems for stealth vehicles that played a key role in the capture of Osama bin Laden -->
+* At First American Bank, built a machine learning model with FastText that detected money laundering activity and produced the evidence reported to the Federal Reserve Bank
+* At Microsoft Research, co-authored an [Icon programming language](https://www2.cs.arizona.edu/icon/) compiler and virtual machine
+* At Nationbuilder.com, built a highly scalable geolocation service that improved voter rolls for thousands of political campaigns for international clients
+* At Fetch.com, developed a distributed news service that scanned millions of financial news articles for thousands of queries simultaneously using fgrep-like algorithms
+* For the Dept. of Defense, collaboratively designed and built war planning tools used by the US Joint Chiefs of Staff, contributing to successful military operations
+* At Texas Instruments, shipped C/C++ compilers, assemblers, and debuggers for ARM microprocessors and premier DSPs, used in millions of devices worldwide
+* During the war in Kosovo, hacked together critical just-in-time tools that supported daily US military missions and pilots with their individual target lists
+* At a British Petroleum Oil refinery, implemented a document retrieval system that made safety regulations & operating procedures ready at the finger tips of workers in the field
+
+#### Principal ML Engineer | Genesis Research 2020 February – now
+
+* Developed a search engine of PubMed's 37M medical papers with AI-enhanced search using classifiers, entity extractions, and generative summaries
+* Replaced the buggy importing system in Scala with Python with a 150x speedup and  no nagging Unicode errors
+* Proto-typed, demo-ed, and performed detailed statistical [model comparison](https://docs.google.com/spreadsheets/d/1FEyv13ibPA-kVfU1mXaCD5svXA8Sa4bnCEuXm1L1nDg/edit?usp=sharing) and benchmarking
+* Simplified and streamlined model inferencing infrastructure, added exception management, and detailed unified logging
+* Unearthed suppressed training data for the original AI models; benchmarked to show poor training generalization and revealed tiny training samples
+
+#### Tech Lead of Data Analysis Team | First American Bank & Trust 2019 July – 2020 October
+
+* Used Facebook's [FastText](https://fasttext.cc/) to build a neural net to detect money laundering in $1.4T worth of annual banking wires
+* Updated banking apps in Python, Ruby, and Go that interface with relational databases and large CSV files
+* Built dashboards of financial data for the wealth management department
+* Improved runtime from 84 hours to 25 minutes for a neural network using C++ library and Go glue code
+* Simplified a Ruby on Rails app to a static website; delivered to customers faster & cheaper by avoiding Microsoft Azure costs
+* Addressed security flaws and earned the most green badges from the Veracode security scanning system
+* Moved a dozen apps out of company data centers to Microsoft Azure Cloud
+
+#### Software Engineering Manager | Molina Healthcare 2015 March – 2019 May
+
+* Run a DevOps team of 30 that automated the updates and part of the development of software at a Fortune 100 company
+* Worked on moving all apps out of company data centers to Microsoft Azure Cloud
+* Shaped the company's software development workflow: agile, automated, faster release cycles
+* Made developer work viewable by project management, business users, and across developer teams
+* Proto-typed installations of software tools like Git, GitHub Enterprise, BitBucket, Team Foundation Server (TFS), Jira, Trello
+* Developed monitoring tools for TFS installations and visualized the data for management prioritizing
+* Defined and taught the branching strategies of version control systems used by all software teams
+* Ghostwriter of the CTO's policies that defined the company's software development process and hardware policies
+
+#### Software Engineer | Design Science 2014 October – 2014 December
+
+* Worked on MathType – a WYSIWYG editor for LaTex and produced high-quality rendering of math notation
+* Responsible for creating web API for accessing the graphical rendering engine for the math
+* Departed after learning that the previous engineering team leader had left after the death of the VP of engineering
+
+#### Software Engineer | NationBuilder.com 2012 October – 2014 August
+* Part of a 12-person team building CMS & CRM system used primarily by political campaigns
+* The website typically serves 20K requests per minute; used by 600 campaigns in November 2012
+* Built and maintained the API and webhook system; see [nationbuilder.com/api_documentation](https://nationbuilder.com/api_documentation)
+* Use plain old Ruby, Ruby on Rails, Postgres, and Redis; built concurrent and fault-tolerant systems
+* Built a system for tracking and profiling every registered US voter, collected state-by-state
+* Test-driven development using RSpec and Minitest; promoted to lead for code reviews of all projects
+* Put out technical fires like customer critical bugs with code fixes, emails, phone calls, screen sharing
+* Promoted API at a Latin America tech conference about the company's third party API
+* Ran mobility/CrossFit/yoga/Tabata workouts every other Friday; enjoyed by 15 employees
+
+#### Software Engineer | OpenX.com 2011 January – October
+* Part of an 8-man team building core parts of an ad server running on 4 data centers, 2500 servers
+* Tech owner of the service for tracking web viewers of ads, 10 terabytes of working data
+* Migrated databases from Cassandra to Riak, a database similar to Amazon's DynamoDB or a distributed Redis
+* Coded in Erlang with OTP libraries and QuickCheck testing
+* Built distributed systems using Thrift/TCP RPC and Lightweight Event System/UDP unicast
+* Responsible for interviewing about two people per week for technical engineering roles
+
+#### Software Engineer | PIMCO 2010 October – December
+
+* Built a system for evaluating mortgage-backed securities at the world's largest bond investor
+* Systems were built using Python/Django for viewing reports and aggregating statistics
+* On a team of 12 people, worked with financial quants detecting patterns used for developing investment strategies
+* Compute intensive calculations performed on a 200 node grid of computers interfaced via a Python library
+* Used Sybase IQ for column-based calculations and Python's NumPy numerical library
+
+#### Software Engineer | Fetch.com 2007 – 2010
+
+* Developed web crawling & information extraction system used by Dow Jones and News Corp
+* Built web scraping tools to convert news, blogs, and financial news websites to databases
+* Provided 24/7 telephone and remote login support for Wall Street customers
+* Set up Lucene/Java and Ferret/Ruby search engines for news articles
+* Built a real-time filtering system based on the Aho-Corasick algorithm for algorithmic parallel searching
+* Used ANTLR parser generator and StAX XML API to process the search specification language
+* Added algorithms and optimized a record linkage system, also known as entity resolution
+* Ran weekly boot camp workouts at the beach for employees; enjoyed and dreaded by many
+
+#### Software Engineer | University of Nevada, Las Vegas 2003 – 2010
+
+* Developed information retrieval and information extraction systems for the Department of Energy
+* Specialized in problems associated with OCR-scanned document collections in English, Arabic, and Farsi
+* Created syllabus and taught computer science courses including introduction to computer programming
+
+#### Tech Lead | US Air Force 2001 – 2004
+
+* Hired 100 days after the 9/11 attack to fast-track development on stealth vehicles used to capture Osama bin Laden
+* Prototyped message-passing system that became the de facto standard file formats and network packet formats
+* Was told later that my core infrastructure design survived 20 years of redesigns
+* Developed C libraries used by an embedded team using Real-Time OS for collecting data from RADAR antennas
+* Developed and benchmarked Java code for high-performance signal processing algorithms
+
+#### Researcher & Teaching Assistant | University of Nevada, Las Vegas 1999 – 2006
+
+* Substitute teacher for analysis of algorithms, formal languages, programming languages, and compilers
+* Taught intro computer science classes to freshman and sophomores
+* Developed an information extraction system robust enough to work with noisy OCR-scanned text
+* Published research papers and reviewed others' papers on information extraction on unstructured text
+
+#### Tech Lead | Xuma.com 1999 – 2001
+
+* Managed a team of 10 developers rapidly building commercial websites with a 6-month turnaround
+* Set up document retrieval systems for medical offices using a Microsoft indexing server
+* Led development of New Balance shoe company's multi-country websites for online shopping
+* Developed Microsoft ASP and Java websites for commercial customers
+
+#### Programmming Languages Researcher | Microsoft Research 1999 – 2000
+
+* On a four-man team, wrote half the code for Icon programming language compiler and virtual machine
+* Developed performance benchmark used to isolate and speedup bottlenecks in the virtual machine and compiler
+* Integrated Perl-compatible regular expressions to complement Icon's Prolog-like backtracking mechanism for string matching
+* Identified and promoted Dave Hanson's Interfaces and Implementations library to be used in this Icon compiler implementation
+
+#### Tech Lead | Science Applications International Corporation 1997 – 1999
+
+* Ran a team of Java developers building war planning tools by generals and admirals from the US Joint Chiefs of Staff
+* Developed the mathematical models used for ranking targets and goals based on cost, risk, and benefit
+* During the War in Kosovo, created tools that created daily target lists for pilots
+
+#### System Software Engineer | Texas Instruments 1992 – 1996
+
+* Wrote C/C++ compilers, assemblers, linkers, and debuggers for TI's microcontrollers and DSP devices
+* Worked on a two-man team managing the premier DSP's tools used in hard drives, anti-lock brake devices, video cameras
+* Worked on a two-man team on the Advanced RISC Machines (ARM) microcontroller tools like assemblers, C compilers, and debuggers
+* Developed the "thumb mode" of ARM compiler with a specialized power profiler to minimize energy consumption
+
+#### System Software Engineer | British Petroleum 1990 – 1991
+
+* Built and managed info systems at the Alliance Refinery, located on the Mississippi River in Belle Chasse, Louisiana
+* On-demand, on-site tech support for all information systems running the refinery
+
+#### Teaching Assistant and Library Worker | University of New Orleans 1988 – 1991
+
+* Graded homework and computer programs written in Ada for computer science students
+* Graded computer programs written in FORTRAN for electrical & mechanical engineering students
+* Helped students with homework, COBOL programs, and in the university computer labs
+* Organized and filed books, periodicals, maps, and microfilm at the huge library
+
+#### Small Business Information Tech Support 1985 – 1990
+
+* At father's office, Oscar R. Pereda MD, automated patient records, billing, and insurance claims
+* At Bric McMann, automated the order entry system for a beauty salon apparel business
+
+#### Awards
+
+* Award at First American Bank: Machine Learning for Detecting Money Laundering for Federal Reserve Bank
+* National Science Foundation Scholarship to the University of Arizona
+* Outstanding Student in Applied Mathematics at the University of New Orleans
+* Outstanding Student in Computer Science at the University of New Orleans
+* WWL TV Station Spirit of Excellence at the University of New Orleans
+
+#### Education
+
+* Brother Martin High School 1986, challenging Honors Program with fun computer classes during summer at nearby college
+* BS Physics 1991 Univerisity of New Orleans (UNO), 2 semesters remaining, focused on advanced mechanics and advanced organic chemistry
+* BS Mathematics 1991 UNO, focused on numerical algorithms; 3 classes on Numerical Recipes textbook
+* BS Computer Science 1991 UNO, focused on programming languages and Mathematica project
+* Minors in Linguistics and Philosophy, University and Department Honors, UNO
+* MS Computer Science 1993 University of Arizona, focused on the Icon programming language
+* MBA University of Houston 1996, 1 semester remaining, stopped to move cities for another degree, focused on launching startups
+* MS Complex Adaptive Systems/AI 1997 National Technological University/U. Mass/Cornell/USC - focused on neural networks and genetic algorithms
+* MS Computer Science 1999, University of Texas, focused on extending the Icon and Unicon programming languages
+* PhD Computer Science 2011, University of Nevada, Las Vegas, focused on information extraction and natural language processing
+
+#### Security Clearances
+
+* Top Secret/Sensitive Compartmented Information with Science Applications International Corporation (SAIC) for 5 years for RADAR work
+* Top Secret/Special Access Required with Joint Test, Tactics, and Training (JT3) for 5 years for war planning work
+
+#### Example Personal Tech Project
+
+* Built [MegaPatterns.com](https://megapatterns.com/) for studying repeated phrases
+* Counts all repeated phrases of all lengths; prints a list ranked by count and length
+* Scalable solution that can process the King James Bible in under 2 seconds
+* Found the most popular openings in half million grand master chess matches
+* Implemented in a generic way that works for any sequence, not just words and DNA
+* Simply identifies repeats in popular song; reveals the structure of the lyrics
